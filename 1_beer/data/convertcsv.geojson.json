@@ -1,0 +1,3045 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1372753,32.8966532 ]
+    },
+    "properties": {
+    "Links":"2Kids Brewing Co.  (Mira Mesa, 2013)",
+    "Open":2013,
+    "Craft Beer":"2Kids Brewing Co.",
+    "Address":"8680 Miralani Drive #123, San Diego, CA 92126",
+    "Closed":"",
+    "Type":"craft brewhouse / nanobrewery",
+    "Coordinates":"32.8966532, -117.1372753"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.0801667,32.6428434 ]
+    },
+    "properties": {
+    "Links":"3 Punk Ales (Three Punks Ale) (Chula Vista, 2017)",
+    "Open":2017,
+    "Craft Beer":"3 Punk Ales",
+    "Address":"259 3rd Avenue, Chula Vista, California 91910 ",
+    "Closed":"",
+    "Type":"craft brewhouse",
+    "Coordinates":"32.6428434, -117.0801667"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1652732,32.8806222 ]
+    },
+    "properties": {
+    "Links":"32 North Brewing Co.  (Miramar, 2014)",
+    "Open":2014,
+    "Craft Beer":"32 North Brewing",
+    "Address":"8555 Production Avenue, Suite A, San Diego, CA 92121",
+    "Closed":"",
+    "Type":"taproom",
+    "Coordinates":"32.8806222, -117.1652732"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.0859077,33.0236355 ]
+    },
+    "properties": {
+    "Links":"Abnormal Beer Company  (Rancho Bernardo, 2015)",
+    "Open":2015,
+    "Craft Beer":"Abnormal Beer Company",
+    "Address":"16990 Via Tazon, Suite 124, San Diego, CA 92127",
+    "Closed":"",
+    "Type":"brewery restaurant",
+    "Coordinates":"33.0236355, -117.0859077"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.184648,32.7422734 ]
+    },
+    "properties": {
+    "Links":"Acoustic Ales Brewing Experiment",
+    "Open":2018,
+    "Craft Beer":"Acoustic Ales Brewing Experiment",
+    "Address":"1795 Hancock Street, Suite P1, San Diego, CA 92110",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7422734, -117.1846480"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.149821,32.8882176 ]
+    },
+    "properties": {
+    "Links":"AleSmith Brewing Company  (Miramar, 1995; 2015)",
+    "Open":1995,
+    "Craft Beer":"AleSmith Brewing Company",
+    "Address":"9990 AleSmith Ct., San Diego, CA 92126",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8882176, -117.1498210"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1372753,32.8966532 ]
+    },
+    "properties": {
+    "Links":"Align Brewing Company (Miramar, 2017) *",
+    "Open":2017,
+    "Craft Beer":"Align Brewing Co.",
+    "Address":"8680 Miralani Dr, San Diego, CA 92121",
+    "Closed":"",
+    "Type":"taproom",
+    "Coordinates":"32.8966532, -117.1372753"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.7626655,32.8351688 ]
+    },
+    "properties": {
+    "Links":"Alpine Beer Company  (Alpine, 2002; purchased by Green Flash, 2014; a brand of WC IPA LLC as of March 2018))",
+    "Open":2018,
+    "Craft Beer":"Alpine Beer Company",
+    "Address":"2351 Alpine Boulevard, Alpine CA 91901",
+    "Closed":"",
+    "Type":"taproom",
+    "Coordinates":"32.8351688, -116.7626655"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1412748,32.7018919 ]
+    },
+    "properties": {
+    "Links":"Alta Brewing (Barrio Logan, 2017, 2018) *",
+    "Open":2017,
+    "Craft Beer":"Alta Brewing Company",
+    "Address":"1983 Julian Ave San Diego, California ",
+    "Closed":"",
+    "Type":"taproom",
+    "Coordinates":"32.7018919, -117.1412748"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2543247,32.791766 ]
+    },
+    "properties": {
+    "Links":"Amplified Ale Works  (Pacific Beach, 2012)",
+    "Open":2012,
+    "Craft Beer":"Amplified Ale Works",
+    "Address":"4150 Mission Blvd #208, San Diego, CA 92109",
+    "Closed":"",
+    "Type":"taproom",
+    "Coordinates":"32.7917660, -117.2543247"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1571274,32.8866311 ]
+    },
+    "properties": {
+    "Links":"Amplified Ale Works  (Miramar, 2016)",
+    "Open":2016,
+    "Craft Beer":"Amplified Ale Works",
+    "Address":"9030 Kenamar Drive, Unit 309, San Diego, CA 92121",
+    "Closed":"",
+    "Type":"taproom",
+    "Coordinates":"32.8866311, -117.1571274"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.27387,33.140246 ]
+    },
+    "properties": {
+    "Links":"Arcana Brewing Co.  (Carlsbad, 2012)",
+    "Open":2012,
+    "Craft Beer":"Arcana Brewing Co.",
+    "Address":"5621 Palmer Way, Suite C, Carlsbad, CA 92010",
+    "Closed":"",
+    "Type":"taproom",
+    "Coordinates":"33.1402460, -117.2738700"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1446282,32.7000923 ]
+    },
+    "properties": {
+    "Links":"Attitude Brewing Company ",
+    "Open":2018,
+    "Craft Beer":"Attitude Brewing Company",
+    "Address":"1985 National Ave Ste 1115, San Diego, CA 92113",
+    "Closed":"",
+    "Type":"taproom",
+    "Coordinates":"32.7000923, -117.1446282"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1203007,32.763498 ]
+    },
+    "properties": {
+    "Links":"Automatic Brewing Company  (Normal Heights, 2010)",
+    "Open":2010,
+    "Craft Beer":"Automatic Brewing Company",
+    "Address":"3416 Adams Avenue, San Diego, CA 92116",
+    "Closed":"",
+    "Type":"taproom",
+    "Coordinates":"32.7634980, -117.1203007"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.23004,33.149647 ]
+    },
+    "properties": {
+    "Links":"Aztec Brewing Company  (Vista,  2011)",
+    "Open":2011,
+    "Craft Beer":"Aztec Brewing Company",
+    "Address":"2330 La Mirada Dr. Suite 300, Vista CA 92081",
+    "Closed":"",
+    "Type":"taproom",
+    "Coordinates":"33.1496470, -117.2300400"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.244742,33.200008 ]
+    },
+    "properties": {
+    "Links":"Back Street Brewery  (Vista, 2004)",
+    "Open":2004,
+    "Craft Beer":"Back Street Brewery",
+    "Address":"15 Main Street, Suite #100, Vista, CA 92084",
+    "Closed":"",
+    "Type":"taproom",
+    "Coordinates":"33.2000080, -117.2447420"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.374349,33.1893679 ]
+    },
+    "properties": {
+    "Links":"Bagby Beer Company  (Oceanside, 2014)",
+    "Open":2014,
+    "Craft Beer":"Bagby Beer Company",
+    "Address":"601 South Coast Highway, Oceanside CA 92054",
+    "Closed":"",
+    "Type":"brewery restaurant",
+    "Coordinates":"33.1893679, -117.3743490"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1109407,32.8985252 ]
+    },
+    "properties": {
+    "Links":"Ballast Point Brewing & Spirits - Scripps Ranch",
+    "Open":2006,
+    "Craft Beer":"Ballast Point Brewing & Spirits - Scripps Ranch",
+    "Address":"10051 Old Grove Road, San Diego, CA 92131",
+    "Closed":"",
+    "Type":"brewery restaurant",
+    "Coordinates":"32.8985252, -117.1109407"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1579086,32.8879565 ]
+    },
+    "properties": {
+    "Links":"Ballast Point Brewing & Spirits  (Miramar, 2014; \")",
+    "Open":2014,
+    "Craft Beer":"Ballast Point Brewing & Spirits  (Miramar)",
+    "Address":"9045 Carroll Way, San Diego, CA",
+    "Closed":"",
+    "Type":"brewery restaurant",
+    "Coordinates":"32.8879565, -117.1579086"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1952639,32.7667161 ]
+    },
+    "properties": {
+    "Links":"Ballast Point Brewing & Spirits - Home Brew Mart",
+    "Open":1996,
+    "Craft Beer":"Ballast Point Brewing & Spirits - Home Brew Mart",
+    "Address":"5401 Linda Vista Rd., Suite 406, San Diego, CA 92110",
+    "Closed":"",
+    "Type":"brewery restaurant",
+    "Coordinates":"32.7667161, -117.1952639"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1697179,32.7276346 ]
+    },
+    "properties": {
+    "Links":"Ballast Point Brewing & Spirits - Little Italy",
+    "Open":2013,
+    "Craft Beer":"Ballast Point Brewing & Spirits - Little Italy",
+    "Address":"2215 India Street, San Diego, CA 92101",
+    "Closed":"",
+    "Type":"brewery restaurant",
+    "Coordinates":"32.7276346, -117.1697179"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1323809,32.7555903 ]
+    },
+    "properties": {
+    "Links":"Barn Brewery  (North Park, 2016) *",
+    "Open":2016,
+    "Craft Beer":"Barn Brewery",
+    "Address":"2850 El Cajon Boulevard Ste 3, San Diego, CA 92104",
+    "Closed":"",
+    "Type":"brewery restaurant",
+    "Coordinates":"32.7555903, -117.1323809"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2215877,33.1488745 ]
+    },
+    "properties": {
+    "Links":"Barrel Harbor  (Vista, 2013)",
+    "Open":2013,
+    "Craft Beer":"Barrel Harbor",
+    "Address":"2575 Pioneer Avenue #104, Vista, CA 92081",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1488745, -117.2215877"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.132369,32.8953877 ]
+    },
+    "properties": {
+    "Links":"Barrel Harbor  (Vista, 2013)",
+    "Open":2013,
+    "Craft Beer":"Barrel Harbor",
+    "Address":"8990 Miramar Road, #150, San Diego, CA 92126",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8953877, -117.1323690"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1479941,32.8289272 ]
+    },
+    "properties": {
+    "Links":"Barrel Harbor  (Vista, 2013)",
+    "Open":2013,
+    "Craft Beer":"Barrel Rescue",
+    "Address":"8125 Ronson Rd, Unit F, San Diego, CA 92111",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8289272, -117.1479941"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2274366,33.1402282 ]
+    },
+    "properties": {
+    "Links":"Battlemage Brewing Company (Vista, 2017)",
+    "Open":2017,
+    "Craft Beer":"Battlemage Brewing Company",
+    "Address":"2870 Scott St, Vista, CA 92081",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1402282, -117.2274366"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.0832236,32.6011946 ]
+    },
+    "properties": {
+    "Links":"Bay Bridge Brewing Co.  (Chula Vista, 2006) *",
+    "Open":2006,
+    "Craft Beer":"Bay Bridge Brewing",
+    "Address":"688 Marsat Court Suite B, Chula Vista, CA 91911",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.6011946, -117.0832236"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2118028,32.7580336 ]
+    },
+    "properties": {
+    "Links":"Bay City Brewing  (Loma Portal, 2015)",
+    "Open":2015,
+    "Craft Beer":"Bay City Brewing",
+    "Address":"3760 Hancock St, San Diego, CA 92110",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7580336, -117.2118028"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2194286,33.1419452 ]
+    },
+    "properties": {
+    "Links":"Beach Grease Beer Co.   (Vista, 2018; bought the former SpecHops) *",
+    "Open":2018,
+    "Craft Beer":"Beach Grease Bear Co.",
+    "Address":"1280 Activity Dr, Vista, CA 92081",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1419452, -117.2194286"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2263421,33.1882451 ]
+    },
+    "properties": {
+    "Links":"Bear Roots Brewing Co.  (Vista, 2015)",
+    "Open":2015,
+    "Craft Beer":"Bear Roots Brewing Co.",
+    "Address":"1213 S. Santa Fe Avenue, Vista, CA 92083",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1882451, -117.2263421"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2296725,33.1450194 ]
+    },
+    "properties": {
+    "Links":"Belching Beaver Brewing  (Original Location    Vista, 2012)",
+    "Open":2012,
+    "Craft Beer":"Belching Beaver Brewery",
+    "Address":"980 Park Center Drive, Suite A, Vista, CA 92081",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1450194, -117.2296725"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2915874,33.212524 ]
+    },
+    "properties": {
+    "Links":"Belching Beaver Brewing  (New HQ    Oceanside, 2016)",
+    "Open":2016,
+    "Craft Beer":"Belching Beaver Brewery",
+    "Address":"1334 Rocky Point Dr, Oceanside, CA 92056",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.2125240, -117.2915874"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2410235,33.2021206 ]
+    },
+    "properties": {
+    "Links":"Belching Beaver Brewery Tavern & Grill  (Vista, 2016)",
+    "Open":2016,
+    "Craft Beer":"Belching Beaver Brewery Tavern & Grill",
+    "Address":"302 East Broadway, Vista, CA 92084",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.2021206, -117.2410235"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1590883,32.7158508 ]
+    },
+    "properties": {
+    "Links":"The Bell Marker Brewery and Kitchen (Downtown, 2018)",
+    "Open":2018,
+    "Craft Beer":"Bell Marker Brewery and Kitchen ",
+    "Address":"602 Broadway, San Diego, CA 92101",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7158508, -117.1590883"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1020698,32.7872447 ]
+    },
+    "properties": {
+    "Links":"Benchmark Brewing  (Grantville, 2013)",
+    "Open":2013,
+    "Craft Beer":"Benchmark Brewing",
+    "Address":"6190 Fairmount ave. Suite G, San Diego, CA 92120",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7872447, -117.1020698"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2201636,32.8157824 ]
+    },
+    "properties": {
+    "Links":"Bitter Brothers Brewing  (Bay Ho, 2016)",
+    "Open":2016,
+    "Craft Beer":"Bitter Brothers Brewing",
+    "Address":"4170 Morena Blvd, San Diego, CA 92117",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8157824, -117.2201636"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.266739,33.2156117 ]
+    },
+    "properties": {
+    "Links":"Black Plague Brewing (Oceanside, June 10, 2017)",
+    "Open":2017,
+    "Craft Beer":"Black Plague Brewing",
+    "Address":"2550 Jason Ct, Oceanside, CA 92056",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.2156117, -117.2667390"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.9583633,32.8466231 ]
+    },
+    "properties": {
+    "Links":"BNS Brewing & Distilling  (Santee, 2013)",
+    "Open":2013,
+    "Craft Beer":"BNS Brewing & Distilling",
+    "Address":"10960 Wheatlands Avenue #101, Santee, CA 92071",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8466231, -116.9583633"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.0205938,32.7718969 ]
+    },
+    "properties": {
+    "Links":"Bolt Brewing Co.  (La Mesa, 2014)",
+    "Open":2014,
+    "Craft Beer":"Bolt Brewing Co.",
+    "Address":"8179 Center Street, La Mesa, CA 91942",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7718969, -117.0205938"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2181424,33.148182 ]
+    },
+    "properties": {
+    "Links":"Booze Brothers  (Vista, 2013)",
+    "Open":2013,
+    "Craft Beer":"Booze Brothers Brewing Co.",
+    "Address":"2545 Progress St. Suite D, Vista, CA 92081",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1481820, -117.2181424"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.9567731,32.5567267 ]
+    },
+    "properties": {
+    "Links":"Border X Brewing  (Barrio Logan, 2013)",
+    "Open":2013,
+    "Craft Beer":"Border X Brewing",
+    "Address":"8684 Avenida de la Fuente Suite 8, San Diego, CA 92154",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.5567267, -116.9567731"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.3791266,33.1950924 ]
+    },
+    "properties": {
+    "Links":"Breakwater Brewing Company  (Oceanside,  2008)",
+    "Open":2008,
+    "Craft Beer":"Breakwater Brewing Company",
+    "Address":"101 N. Coast Highway, Oceanside, CA 92054",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1950924, -117.3791266"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.272939,33.1197823 ]
+    },
+    "properties": {
+    "Links":"Burgeon Beer Company  (Carlsbad, 2016)",
+    "Open":2016,
+    "Craft Beer":"Burgeon Beer Company",
+    "Address":"6350 Yarrow Dr, Suite C, Carlsbad, CA 92011",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1197823, -117.2729390"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.9724106,32.8117415 ]
+    },
+    "properties": {
+    "Links":"Burning Beard Brewing  (El Cajon 2016)",
+    "Open":2016,
+    "Craft Beer":"Burning Beard Brewing Company",
+    "Address":"785 Vernon Way, El Cajon, CA 92020",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8117415, -116.9724106"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2151184,32.9050831 ]
+    },
+    "properties": {
+    "Links":"California Wild Ales (Sorrento Valley, 2017) *",
+    "Open":2017,
+    "Craft Beer":"California Wild Ales",
+    "Address":"4202 Sorrento Valley BLVD, Suite L&M, San Diego, CA 92121",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.9050831, -117.2151184"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.8892148,33.0277812 ]
+    },
+    "properties": {
+    "Links":"ChuckAlek Independent Brewers",
+    "Open":null,
+    "Craft Beer":"ChuckAlek Independent Brewers",
+    "Address":"2330 Main St, Suite C, Ramona, CA 92065",
+    "Closed":"10",
+    "Type":"tasting room",
+    "Coordinates":"33.0277812, -116.8892148"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.0803328,32.6415632 ]
+    },
+    "properties": {
+    "Links":"Chula Vista Brewery (Chula Vista, 2017) *",
+    "Open":2017,
+    "Craft Beer":"Chula Vista Brewery",
+    "Address":"294 3rd Ave, Chula Vista, CA 91910",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.6415632, -117.0803328"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1607576,32.8257279 ]
+    },
+    "properties": {
+    "Links":"Circle 9 Brewing (Kearny Mesa, 2017)",
+    "Open":2017,
+    "Craft Beer":"Circle 9 Brewing",
+    "Address":"7292 Opportunity Rd, San Diego, CA 92111",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8257279, -117.1607576"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1732329,32.6977694 ]
+    },
+    "properties": {
+    "Links":"Coronado Brewing Company  (Coronado, 1996)",
+    "Open":1996,
+    "Craft Beer":"Coronado Brewing Company",
+    "Address":"170 Orange Avenue, Coronado, CA 92118",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.6977694, -117.1732329"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2045788,32.7718721 ]
+    },
+    "properties": {
+    "Links":"Coronado Brewing  Company  (Bay Park, 2013)",
+    "Open":2013,
+    "Craft Beer":"Coronado Brewing Company",
+    "Address":"1205 Knoxville Street, San Diego, CA 92110",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7718721, -117.2045788"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.9796314,32.8319916 ]
+    },
+    "properties": {
+    "Links":"Council Brewing  (Santee, May 2018: purchased the former Finest Made Ales)",
+    "Open":2014,
+    "Craft Beer":"Council Brewing Co.",
+    "Address":"9962 Prospect Ave, Santee, CA 92071",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8319916, -116.9796314"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1544514,32.8345474 ]
+    },
+    "properties": {
+    "Links":"Council Brewing    (Kearny Mesa, 2014)",
+    "Open":2014,
+    "Craft Beer":"Council Brewing Co.",
+    "Address":"7705 Convoy Court, San Diego, CA 92111",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8345474, -117.1544514"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2707116,32.9915796 ]
+    },
+    "properties": {
+    "Links":"Culture Brewing Co.  (Solana Beach, 2013)",
+    "Open":2013,
+    "Craft Beer":"Culture Brewing Co.",
+    "Address":"111 S. Cedros Ave Suite 200, Solana Beach, CA 92075",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.9915796, -117.2707116"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2585179,33.1326935 ]
+    },
+    "properties": {
+    "Links":"Culver Beer Co.  (Carlsbad, 2016)",
+    "Open":2016,
+    "Craft Beer":"Culver Beer Co.",
+    "Address":"2719 Loker Avenue West Suite D, Carlsbad, CA, 92010",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1326935, -117.2585179"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1989393,32.7643879 ]
+    },
+    "properties": {
+    "Links":"Deft Brewing (Bay Park, 2017)",
+    "Open":2017,
+    "Craft Beer":"Deft Brewing",
+    "Address":"5328 Banks Street, Ste A, San Diego, CA 92110",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7643879, -117.1989393"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.162898,32.890339 ]
+    },
+    "properties": {
+    "Links":"Division 23 Brewing  (Miramar, 2015)",
+    "Open":2015,
+    "Craft Beer":"Division 23 Brewing",
+    "Address":"7408 Trade St, San Diego, California 92121",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8903390, -117.1628980"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1934247,33.1369175 ]
+    },
+    "properties": {
+    "Links":"Dos Desperados  (San Marcos, 2014)",
+    "Open":2014,
+    "Craft Beer":"Dos Desperados Brewing",
+    "Address":"1241 Linda Vista Drive, San Marcos, CA 92078",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1369175, -117.1934247"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1563922,32.8854988 ]
+    },
+    "properties": {
+    "Links":"Duck Foot  (Miramar, 2015)",
+    "Open":2015,
+    "Craft Beer":"Duck Foot Brewing Co.",
+    "Address":"8920 Kenamar Dr. Suite #210, San Diego, CA 92121",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8854988, -117.1563922"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2241602,33.1537956 ]
+    },
+    "properties": {
+    "Links":"Ebullition Brew Works (Vista, 2017)",
+    "Open":2017,
+    "Craft Beer":"Ebullition Brew Works",
+    "Address":"2449 Cades, Suite D, Vista, CA 92081",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1537956, -117.2241602"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1046897,32.6583739 ]
+    },
+    "properties": {
+    "Links":"Embarcadero Brewing Company (National City; soft open 9/27/2018) *",
+    "Open":2018,
+    "Craft Beer":"Embarcadero Brewing & Supply Company",
+    "Address":"340 W 26th St Ste D, National City, CA 91950",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.6583739, -117.1046897"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1287502,32.7555796 ]
+    },
+    "properties": {
+    "Links":"Eppig Brewing  (North Park, 2016)",
+    "Open":2016,
+    "Craft Beer":"Eppig Brewing",
+    "Address":"3052 El Cajon Blvd., Suite C San Diego, CA 92104",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7555796, -117.1287502"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.0970089,33.124577 ]
+    },
+    "properties": {
+    "Links":"Escondido Brewing Co. (Escondido, 2017)",
+    "Open":2017,
+    "Craft Beer":"Escondido Brewing Company",
+    "Address":"649 Rock Springs Road, Escondido, CA 92025",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1245770, -117.0970089"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1304601,32.7598158 ]
+    },
+    "properties": {
+    "Links":"Fall Brewing Co.  (North Park, 2014)",
+    "Open":2014,
+    "Craft Beer":"Fall Brewing Co.",
+    "Address":"4532 30th Street, San Diego, CA 92104",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7598158, -117.1304601"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2515165,33.3827003 ]
+    },
+    "properties": {
+    "Links":"Fallbrook Brewing Company",
+    "Open":2013,
+    "Craft Beer":"Fallbrook Brewing Company",
+    "Address":"136 N Main Ave, Fallbrook, CA 92028",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.3827003, -117.2515165"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.0183293,32.7648916 ]
+    },
+    "properties": {
+    "Links":"Fourpenny House (La Mesa, soft open 3/31/2018)",
+    "Open":2018,
+    "Craft Beer":"Fourpenny House",
+    "Address":"8323 La Mesa Blvd., La Mesa, CA 91942",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7648916, -117.0183293"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1539108,32.7670751 ]
+    },
+    "properties": {
+    "Links":"Gordon Biersch Brewery Restaurant  (Mission Valley, 1998)",
+    "Open":1998,
+    "Craft Beer":"Gordon Biersch Brewery Restaurant",
+    "Address":"5010 Mission Center Road, San Diego, CA 92108",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7670751, -117.1539108"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1777588,32.9071098 ]
+    },
+    "properties": {
+    "Links":"Green Flash Brewing Co.  (Mira Mesa, 2002; under new ownership as of 4/2018)",
+    "Open":2002,
+    "Craft Beer":"Green Flash Brewing Co.",
+    "Address":"6550 Mira Mesa Blvd., San Diego, CA 92121",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.9071098, -117.1777588"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.0997872,32.7889952 ]
+    },
+    "properties": {
+    "Links":"Groundswell Brewing Co.",
+    "Open":2013,
+    "Craft Beer":"Groundswell Brewing Co.",
+    "Address":"6304 Riverdale Street, San Diego, CA 92120",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7889952, -117.0997872"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.9766879,32.8307147 ]
+    },
+    "properties": {
+    "Links":"Groundswell Brewing Co.  (Santee, 2017)",
+    "Open":2017,
+    "Craft Beer":"Groundswell Brewing Co.",
+    "Address":"10151 Prospect Avenue, Santee, CA 92071",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8307147, -116.9766879"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2746495,33.1395403 ]
+    },
+    "properties": {
+    "Links":"Guadalupe Brewery",
+    "Open":2018,
+    "Craft Beer":"Guadalupe Brewery",
+    "Address":"5650 El Camino Real, Carlsbad, CA 92008",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1395403, -117.2746495"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1562711,32.7102641 ]
+    },
+    "properties": {
+    "Links":"Half Door Brewing Co.  (Downtown, 2015)",
+    "Open":2015,
+    "Craft Beer":"Half Door Brewing Co.",
+    "Address":"903 Island Avenue, San Diego, CA 92101",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7102641, -117.1562711"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1390676,32.8373203 ]
+    },
+    "properties": {
+    "Links":"Helm's Brewing",
+    "Open":2012,
+    "Craft Beer":"Helm's Brewing",
+    "Address":"5640 Kearny Mesa Rd, Suite C/N, San Diego, CA 92111",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8373203, -117.1390676"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.0233413,32.7720182 ]
+    },
+    "properties": {
+    "Links":"Helix Brewing Co.  (La Mesa, 2015)",
+    "Open":2015,
+    "Craft Beer":"Helix Brewing Co.",
+    "Address":"8101 Commercial Street, La Mesa, CA 91942",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7720182, -117.0233413"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1499114,32.749106 ]
+    },
+    "properties": {
+    "Links":"Hillcrest Brewing Company  (Hillcrest, 2012)",
+    "Open":2012,
+    "Craft Beer":"Hillcrest Brewing Company",
+    "Address":"1458 University Ave, San Diego, CA 92103",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7491060, -117.1499114"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.130994,32.755089 ]
+    },
+    "properties": {
+    "Links":"Home Brewing Co.  (North Park, 2015)",
+    "Open":2015,
+    "Craft Beer":"Home Brewing Co.",
+    "Address":"2911 El Cajon Boulevard, Space #2, San Diego, CA 92104",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7550890, -117.1309940"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.3091269,33.243533 ]
+    },
+    "properties": {
+    "Links":"Horus Aged Ales",
+    "Open":2018,
+    "Craft Beer":"Horus Aged Ales",
+    "Address":"Oceanside, CA 92154",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.2435330, -117.3091269"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2204901,33.1694243 ]
+    },
+    "properties": {
+    "Links":"Indian Joe Brewing (Vista, re-opened 2017)",
+    "Open":2017,
+    "Craft Beer":"Indian Joe Brewing",
+    "Address":"2123 Industrial Ct, Vista, CA 92081",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1694243, -117.2204901"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1206384,32.8987471 ]
+    },
+    "properties": {
+    "Links":"Intergalactic Brewing Co",
+    "Open":2013,
+    "Craft Beer":"Intergalactic Brewing Co",
+    "Address":"9835 Carroll Centre, Suite 108, San Diego, CA 92126",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8987471, -117.1206384"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2390501,33.1450803 ]
+    },
+    "properties": {
+    "Links":"Iron Fist Brewing Company  (Vista, 2010)",
+    "Open":2010,
+    "Craft Beer":"Iron Fist Brewing Company",
+    "Address":"1305 Hot Spring Way #101, Vista, CA 92081",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1450803, -117.2390501"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.09165,33.117244 ]
+    },
+    "properties": {
+    "Links":"Jacked Up Brewing  (Escondido, 2017)",
+    "Open":2017,
+    "Craft Beer":"Jacked Up Brewing",
+    "Address":"800 West Grand Ave, Escondido, CA 92025",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1172440, -117.0916500"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.8761347,32.7169988 ]
+    },
+    "properties": {
+    "Links":"Jamul Brewing Co.",
+    "Open":2013,
+    "Craft Beer":"Jamul Brewing Co.",
+    "Address":"Jamul, CA 91935",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7169988, -116.8761347"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.6038382,33.0793706 ]
+    },
+    "properties": {
+    "Links":"Julian Beer Co.  (Julian, 2012; no tasting room as of 2016; renovated space July 2018) *",
+    "Open":2016,
+    "Craft Beer":"Julian Brewing Company",
+    "Address":"2315 Main Street, Julian, CA 92036",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"33.0793706, -116.6038382"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1134033,33.0214603 ]
+    },
+    "properties": {
+    "Links":"Karl Strauss 4S Ranch  (4S Ranch, 2012)",
+    "Open":2012,
+    "Craft Beer":"Karl Strauss 4S Ranch",
+    "Address":"10448 Reserve Drive, San Diego, CA 92127",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.0214603, -117.1134033"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.3140153,33.1244064 ]
+    },
+    "properties": {
+    "Links":"Karl Strauss Carlsbad  (Carlsbad, 1999)",
+    "Open":1999,
+    "Craft Beer":"Karl Strauss Carlsbad",
+    "Address":"5801 Armada Drive, Carlsbad, CA 92008",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1244064, -117.3140153"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1670758,32.7174547 ]
+    },
+    "properties": {
+    "Links":"Karl Strauss Downtown  (Downtown, 1989)",
+    "Open":1989,
+    "Craft Beer":"Karl Strauss Downtown",
+    "Address":"1157 Columbia Street, San Diego, CA 92101",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7174547, -117.1670758"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2735361,32.8471174 ]
+    },
+    "properties": {
+    "Links":"Karl Strauss La Jolla  (La Jolla, 2004)",
+    "Open":2004,
+    "Craft Beer":"Karl Strauss La Jolla",
+    "Address":"1044 Wall Street, La Jolla, CA 92037",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8471174, -117.2735361"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2312344,32.8320492 ]
+    },
+    "properties": {
+    "Links":"Karl Strauss Main Production Brewery  (Bay Ho, 1996)",
+    "Open":1996,
+    "Craft Beer":"Karl Strauss",
+    "Address":"5985 Santa Fe Street, San Diego, CA 92109",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8320492, -117.2312344"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2017648,32.896535 ]
+    },
+    "properties": {
+    "Links":"Karl Strauss Sorrento Mesa  (Sorrento Mesa, 1994)",
+    "Open":1994,
+    "Craft Beer":"Karl Strauss Sorrento Mesa",
+    "Address":"9675 Scranton Rd, San Diego, CA 92121",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8965350, -117.2017648"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1079066,32.7630155 ]
+    },
+    "properties": {
+    "Links":"Kensington Brewing Company",
+    "Open":2012,
+    "Craft Beer":"Kensington Brewing Company",
+    "Address":"4067 Adams Ave  San Diego,CA92116 ",
+    "Closed":"4067 Adams Ave   San Diego,CA92116",
+    "Type":"tasting room",
+    "Coordinates":"32.7630155, -117.1079066"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1552894,32.8132612 ]
+    },
+    "properties": {
+    "Links":"Ketch Brewing (Kearny Mesa, spring 2018)*",
+    "Open":2018,
+    "Craft Beer":"Ketch Brewing",
+    "Address":"7889 Ostrow Street, San Diego, California",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8132612, -117.1552894"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1563692,32.8331085 ]
+    },
+    "properties": {
+    "Links":"Kilowatt Brewing Company  (Kearny Mesa, 2015)",
+    "Open":2015,
+    "Craft Beer":"Kilowatt Brewing Company",
+    "Address":"7576 Clairemont Mesa Blvd., San Diego, CA 92111",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8331085, -117.1563692"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.0599295,32.7840052 ]
+    },
+    "properties": {
+    "Links":"KnB Brewery",
+    "Open":2018,
+    "Craft Beer":"KnB Brewery",
+    "Address":"6380 Del Cerro Blvd, San Diego, CA 92120",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7840052, -117.0599295"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1568517,32.7117775 ]
+    },
+    "properties": {
+    "Links":"Knotty Brewing Co.  (Downtown, 2016)",
+    "Open":2016,
+    "Craft Beer":"Knotty Brewing Co.",
+    "Address":"842 Market St, San Diego, CA 92101",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7117775, -117.1568517"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2012594,33.1616463 ]
+    },
+    "properties": {
+    "Links":"Kuracali Sake & Beer Brewery",
+    "Open":null,
+    "Craft Beer":"Kuracali Sake & Beer Brewery",
+    "Address":"175 Bosstick Blvd. #104, San Marcos, CA 92069",
+    "Closed":"Closed 2017",
+    "Type":"tasting room",
+    "Coordinates":"33.1616463, -117.2012594"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1605279,32.7191663 ]
+    },
+    "properties": {
+    "Links":"KO Brewery Restaurant & Bar   (Downtown, 2018) *",
+    "Open":2018,
+    "Craft Beer":"KO Brewery Restaurant & Bar",
+    "Address":"1320 5th Ave., San Diego, CA 92101",
+    "Closed":"",
+    "Type":"Gastropub",
+    "Coordinates":"32.7191663, -117.1605279"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1835198,32.741909 ]
+    },
+    "properties": {
+    "Links":"Latchkey Brewing - former site of Acoustic Ales (Little Italy, spring 2018)",
+    "Open":2018,
+    "Craft Beer":"Latchkey Brewing ",
+    "Address":"2120 W Washington St., San Diego, CA 92110",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.7419090, -117.1835198"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2744546,32.8407895 ]
+    },
+    "properties": {
+    "Links":"La Jolla Beer Co.",
+    "Open":2017,
+    "Craft Beer":"La Jolla Beer Co.",
+    "Address":"7536 Fay Avenue, San Diego, CA 92037",
+    "Closed":"",
+    "Type":"Gastropub",
+    "Coordinates":"32.8407895, -117.2744546"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.224863,33.136034 ]
+    },
+    "properties": {
+    "Links":"Latitude 33 Brewing Company  (Vista, 2012)",
+    "Open":2012,
+    "Craft Beer":"Latitude 33 Brewing Company",
+    "Address":"1430 Vantage Court, Suite 104, Vista, CA 92081",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":"33.1360340, -117.2248630"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.3507698,33.2153901 ]
+    },
+    "properties": {
+    "Links":"Legacy Brewing  (Oceanside, 2013)",
+    "Open":2013,
+    "Craft Beer":"Legacy Brewing Company",
+    "Address":"363 Airport Road Oceanside, CA 92058",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"33.2153901, -117.3507698"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.0435079,32.9354924 ]
+    },
+    "properties": {
+    "Links":"Lightning Brewery  (Poway, 2006) *",
+    "Open":2006,
+    "Craft Beer":"Lightning Brewery",
+    "Address":"13200 Kirkham Way, Suite 106, Poway, CA 92064",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.9354924, -117.0435079"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1484446,32.8925649 ]
+    },
+    "properties": {
+    "Links":"Little Miss Brewing  (Miramar, 2016)",
+    "Open":2016,
+    "Craft Beer":"Little Miss Brewing",
+    "Address":"7649 Stromesa Ct, Suite Y, San Diego, CA 92126",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.8925649, -117.1484446"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1714639,32.9040608 ]
+    },
+    "properties": {
+    "Links":"Longship Brewery  (Mira Mesa, 2016)",
+    "Open":2016,
+    "Craft Beer":"Longship Brewery",
+    "Address":"10320 Camino Santa Fe, San Diego, CA 92121",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.9040608, -117.1714639"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.3591228,33.1720729 ]
+    },
+    "properties": {
+    "Links":"Mason Ale Works  (Oceanside, 2015)",
+    "Open":2015,
+    "Craft Beer":"Mason Ale Works",
+    "Address":"2002 S Coast Hwy, Oceanside, CA, 92054",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"33.1720729, -117.3591228"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1585644,33.1358939 ]
+    },
+    "properties": {
+    "Links":"Mason Ale Works (San Marcos, 2017; production brewery and tasting room)",
+    "Open":2017,
+    "Craft Beer":"Mason Ale Works",
+    "Address":"255 Redel Rd, San Marcos, CA 92078",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"33.1358939, -117.1585644"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.3046252,33.205154 ]
+    },
+    "properties": {
+    "Links":"Midnight Jack Brewing Co.  (Oceanside, 2016) *",
+    "Open":2016,
+    "Craft Beer":"Midnight Jack Brewing Company",
+    "Address":"3801 Oceanic Dr, Oceanside, CA 92058",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"33.2051540, -117.3046252"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1285434,32.7476888 ]
+    },
+    "properties": {
+    "Links":"Mike  Hess Brewing  (North Park, 2013)",
+    "Open":2013,
+    "Craft Beer":"Mike Hess Brewing",
+    "Address":"3812 Grim Avenue, San Diego, CA 92104",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.7476888, -117.1285434"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1447381,32.8923805 ]
+    },
+    "properties": {
+    "Links":"Mikkeller Brewing San Diego  (Miramar, 2015)",
+    "Open":2015,
+    "Craft Beer":"Mikkeller Brewing San Diego",
+    "Address":"9368 Cabbot Dr, San Diego, CA 92126",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.8923805, -117.1447381"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1515916,32.7071477 ]
+    },
+    "properties": {
+    "Links":"Mission Brewery  (Downtown, 2008)",
+    "Open":2008,
+    "Craft Beer":"Mission Brewery",
+    "Address":"1441 L Street, San Diego, CA 92101",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.7071477, -117.1515916"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2061981,32.7542044 ]
+    },
+    "properties": {
+    "Links":"Modern Times  (Midway, 2013)",
+    "Open":2013,
+    "Craft Beer":"Modern Times",
+    "Address":"3725 Greenwood Street, San Diego, CA 92110",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.7542044, -117.2061981"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1492466,32.7138573 ]
+    },
+    "properties": {
+    "Links":"Monkey Paw Pub & Brewery",
+    "Open":2016,
+    "Craft Beer":"Monkey Paw Pub & Brewery",
+    "Address":"805 16th Street, San Diego, CA 92101",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.7138573, -117.1492466"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2203174,33.1677133 ]
+    },
+    "properties": {
+    "Links":"Mother Earth Brew Company  (Vista, 2010)",
+    "Open":2010,
+    "Craft Beer":"Mother Earth Brew Company",
+    "Address":"2055 Thibodo Road, Suite H, Vista, CA 92081",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"33.1677133, -117.2203174"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2306057,32.9127354 ]
+    },
+    "properties": {
+    "Links":"New English Brewing Company  (Sorrento Valley, 2008)",
+    "Open":2008,
+    "Craft Beer":"New English Brewing Company",
+    "Address":"11545 Sorrento Valley Road, Suite 305, San Diego, CA 92121",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.9127354, -117.2306057"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.5905432,33.0765814 ]
+    },
+    "properties": {
+    "Links":"Nickel Beer Company  (Julian, 2013)",
+    "Open":2013,
+    "Craft Beer":"Nickel Beer Company",
+    "Address":"1485 Hollow Glen Road, Julian, CA 92036",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"33.0765814, -116.5905432"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1291179,32.7487183 ]
+    },
+    "properties": {
+    "Links":"North Park Beer Co.  (North Park, 2016)",
+    "Open":2016,
+    "Craft Beer":"North Park Beer Co",
+    "Address":"3038 University Ave, San Diego, CA 92104",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.7487183, -117.1291179"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.3769334,33.1998358 ]
+    },
+    "properties": {
+    "Links":"Northern Pine Brewing (Oceanside, 2017)",
+    "Open":2017,
+    "Craft Beer":"Northern Pine Brewing Company",
+    "Address":"326 N. Horne, Oceanside, CA 92054",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"33.1998358, -117.3769334"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.9614181,32.6520158 ]
+    },
+    "properties": {
+    "Links":"Novo Brazil Brewing Company  (Chula Vista, 2015)",
+    "Open":2015,
+    "Craft Beer":"Novo Brazil Brewing Co.",
+    "Address":"901 Lane Av, Chula Vista, California 91914",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.6520158, -116.9614181"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2519729,32.7472201 ]
+    },
+    "properties": {
+    "Links":"OB Brewery  (Ocean Beach, 2016)",
+    "Open":2016,
+    "Craft Beer":"OB Brewery",
+    "Address":"5041 Newport Ave, San Diego, CA 92107",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.7472201, -117.2519729"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.272715,33.2116113 ]
+    },
+    "properties": {
+    "Links":"Oceanside Ale Works (closed)",
+    "Open":2002,
+    "Craft Beer":"Oceanside Ale Works",
+    "Address":"1800 Ord Way, Oceanside, CA 92056",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"33.2116113, -117.2727150"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.3522371,33.2128018 ]
+    },
+    "properties": {
+    "Links":"Oceanside Brewing Company  (Oceanside, 2016) *",
+    "Open":2016,
+    "Craft Beer":"Oceanside Brewing Company",
+    "Address":"312 Via Del Norte, Oceanside, CA 92058",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"33.2128018, -117.3522371"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.0735241,32.9805356 ]
+    },
+    "properties": {
+    "Links":"Oggi  s Pizza and Brewing Company (Carmel Mountain)",
+    "Open":1991,
+    "Craft Beer":"Oggi's Pizza and Brewing Company",
+    "Address":"Carmel Mountain, CA",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.9805356, -117.0735241"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1127791,32.9132595 ]
+    },
+    "properties": {
+    "Links":"O'Sullivan Brother's Brewing",
+    "Open":2011,
+    "Craft Beer":"O'Sullivan Brother's Brewing",
+    "Address":"9879 Hibert Street, Suite F, San Diego, CA 92131",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.9132595, -117.1127791"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2700916,33.1345148 ]
+    },
+    "properties": {
+    "Links":"Papa Marce  s Cerveceria (Carlsbad, July 2018)",
+    "Open":2018,
+    "Craft Beer":"Papa Marce's Cerveceria",
+    "Address":"5840 El Camino Real Ste. 100, Carlsbad, 92008",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"33.1345148, -117.2700916"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2553488,32.7943249 ]
+    },
+    "properties": {
+    "Links":"Pacific Beach Ale House  (Pacific Beach, 2007)",
+    "Open":2007,
+    "Craft Beer":"Pacific Beach Ale House",
+    "Address":"721 Grand Avenue, San Diego, CA 92109",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.7943249, -117.2553488"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.9889673,32.8328875 ]
+    },
+    "properties": {
+    "Links":"Pacific Islander Beer Co.  (Santee, 2015)",
+    "Open":2015,
+    "Craft Beer":"Pacific Islander Beer Co.",
+    "Address":"8665 Argent St Ste B, Santee, CA 92071",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.8328875, -116.9889673"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1287502,32.7555796 ]
+    },
+    "properties": {
+    "Links":"Pariah Brewing Company  (North Park, 2017)",
+    "Open":2017,
+    "Craft Beer":"Pariah Brewing Company",
+    "Address":"3052 El Cajon Blvd, Suite B, San Diego, CA 92104",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.7555796, -117.1287502"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2500668,33.1286712 ]
+    },
+    "properties": {
+    "Links":"Pizza Port Bressi Ranch  (Bressi Ranch, 2014)",
+    "Open":2014,
+    "Craft Beer":"Pizza Port Bressi Ranch",
+    "Address":"2730 Gateway Road, Carlsbad, CA 92009",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"33.1286712, -117.2500668"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.3477378,33.1599094 ]
+    },
+    "properties": {
+    "Links":"Pizza Port Carlsbad  (Carlsbad, 1997)",
+    "Open":1997,
+    "Craft Beer":"Pizza Port Carlsbad",
+    "Address":"571 Carlsbad Village Drive, Carlsbad, CA 92008",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"33.1599094, -117.3477378"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.250302,32.7479652 ]
+    },
+    "properties": {
+    "Links":"Pizza Port Ocean Beach  (Ocean Beach, 2010)",
+    "Open":2010,
+    "Craft Beer":"Pizza Port Ocean Beach",
+    "Address":"1956 Bacon Street, San Diego CA 92107",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.7479652, -117.2503020"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.272216,32.992923 ]
+    },
+    "properties": {
+    "Links":"Pizza Port Solana Beach  (Solana Beach, 1992)",
+    "Open":1992,
+    "Craft Beer":"Pizza Port Solana Beach",
+    "Address":"135 North Highway 101, Solana Beach, 92075",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.9929230, -117.2722160"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.0801782,33.1219384 ]
+    },
+    "properties": {
+    "Links":"Plan 9 Alehouse",
+    "Open":2017,
+    "Craft Beer":"Plan 9 Ale House",
+    "Address":"155 E. Grand Avenue, Escondido, CA 92025",
+    "Closed":"",
+    "Type":"Gastropub",
+    "Coordinates":"33.1219384, -117.0801782"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1303887,32.7589732 ]
+    },
+    "properties": {
+    "Links":"Poor House Brewing Co  (North Park, 2012) *",
+    "Open":2012,
+    "Craft Beer":"Poor House Brewing Co",
+    "Address":"4494 30th Street, San Diego, CA 92116",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.7589732, -117.1303887"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1493614,33.1416287 ]
+    },
+    "properties": {
+    "Links":"Port Brewing / The Lost Abbey  (San Marcos, 2006)",
+    "Open":2006,
+    "Craft Beer":"Port Brewing / The Lost Abbey",
+    "Address":"155 Mata Way #104, San Marcos, CA 92069",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"33.1416287, -117.1493614"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1661449,33.1433723 ]
+    },
+    "properties": {
+    "Links":"Prodigy Brewing Company",
+    "Open":2014,
+    "Craft Beer":"Prodigy Brewing Company",
+    "Address":"San Marcos, CA",
+    "Closed":"",
+    "Type":"brewery / no tasting room",
+    "Coordinates":"33.1433723, -117.1661449"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2265948,33.2304468 ]
+    },
+    "properties": {
+    "Links":"Prohibition Brewing Company  (Vista, 2011)",
+    "Open":2011,
+    "Craft Beer":"Prohibition Brewing Company",
+    "Address":"2004 E. Vista Way Vista, CA 92084",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"33.2304468, -117.2265948"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1372753,32.8966532 ]
+    },
+    "properties": {
+    "Links":"Protector Brewery (Miramar, soft open June 2017)",
+    "Open":2017,
+    "Craft Beer":"Protector Brewery",
+    "Address":"8680 Miralani Dr #128, San Diego, CA 92126",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.8966532, -117.1372753"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1571274,32.8866311 ]
+    },
+    "properties": {
+    "Links":"Pure Project Brewing  (Miramar, 2016)",
+    "Open":2016,
+    "Craft Beer":"Pure Project Brewing",
+    "Address":"9030 Kenamar Dr #308 San Diego, Ca 92121",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.8866311, -117.1571274"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1384012,32.8308894 ]
+    },
+    "properties": {
+    "Links":"Quantum Brewing Company  (Kearny Mesa, 2014)",
+    "Open":2014,
+    "Craft Beer":"Quantum Brewing Co.",
+    "Address":"5375 Kearny Villa Road #116, San Diego, CA 92123",
+    "Closed":"",
+    "Type":"brewery",
+    "Coordinates":"32.8308894, -117.1384012"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1596088,32.8880071 ]
+    },
+    "properties": {
+    "Links":"Reckless Brewing Co.  (Miramar, 2015)",
+    "Open":2015,
+    "Craft Beer":"Reckless Brewing Co.",
+    "Address":"9040 Carroll Way, Suite 8, San Diego, CA 92121",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8880071, -117.1596088"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1605885,32.7165795 ]
+    },
+    "properties": {
+    "Links":"Resident Brewing Co.  (Downtown, 2016)",
+    "Open":2016,
+    "Craft Beer":"Resident Brewing Co.",
+    "Address":"411 C St, San Diego, CA 92101",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7165795, -117.1605885"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1299372,32.7523763 ]
+    },
+    "properties": {
+    "Links":"Rip Current Brewing Co.  (San Marcos, 2012)",
+    "Open":2012,
+    "Craft Beer":"Rip Current Brewing Co.",
+    "Address":"4101 30th Street, San Diego, CA 92104",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7523763, -117.1299372"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1925073,33.1427524 ]
+    },
+    "properties": {
+    "Links":"Rip Current Brewing Co.  (San Marcos, 2012)",
+    "Open":2012,
+    "Craft Beer":"Rip Current Brewing Co.",
+    "Address":"1325 Grand Avenue #100, San Marcos, CA 92078",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1427524, -117.1925073"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.234266,32.8712909 ]
+    },
+    "properties": {
+    "Links":"Rock Bottom Brewery Restaurant La Jolla  (La Jolla, 1998)",
+    "Open":1998,
+    "Craft Beer":"Rock Bottom Brewery Restaurant La Jolla",
+    "Address":"8980 Villa La Jolla Drive, San Diego, CA 92037",
+    "Closed":"",
+    "Type":"tasting room / restaurant",
+    "Coordinates":"32.8712909, -117.2342660"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1717856,32.8834869 ]
+    },
+    "properties": {
+    "Links":"Rough Draft Brewing Company  (Mira Mesa, 2012)",
+    "Open":2012,
+    "Craft Beer":"Rough Draft Brewing Company",
+    "Address":"8830 Rehco Rd. Suite D, San Diego CA 92121",
+    "Closed":"",
+    "Type":"tasting room / restaurant",
+    "Coordinates":"32.8834869, -117.1717856"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2700916,33.1345148 ]
+    },
+    "properties": {
+    "Links":"Rouleur Brewing Company (Carlsbad, 2017)",
+    "Open":2017,
+    "Craft Beer":"Rouleur Brewing Company",
+    "Address":"5840 El Camino Real, Suite 101, Carlsbad, CA 92008",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1345148, -117.2700916"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.099174,32.7921228 ]
+    },
+    "properties": {
+    "Links":"San Diego Brewing Company  (Grantville, 1993)",
+    "Open":1993,
+    "Craft Beer":"San Diego Brewing Company",
+    "Address":"10450 Friars Rd. Ste. L, San Diego, CA 92120",
+    "Closed":"",
+    "Type":"tasting room / restaurant",
+    "Coordinates":"32.7921228, -117.0991740"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1287502,32.7555796 ]
+    },
+    "properties": {
+    "Links":"San Diego Brewing Company  (Grantville, 1993)",
+    "Open":1993,
+    "Craft Beer":"San Diego Brewing Company",
+    "Address":"3052 El Cajon Blvd, San Diego, CA 92104",
+    "Closed":"",
+    "Type":"tasting room / restaurant",
+    "Coordinates":"32.7555796, -117.1287502"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1909682,33.1344351 ]
+    },
+    "properties": {
+    "Links":"San Marcos Brewery & Grill  (San Marcos, 1991)",
+    "Open":1991,
+    "Craft Beer":"San Marcos Brewery & Grill",
+    "Address":"1080 W. San Marcos Blvd. #108, San Marcos, CA 92078",
+    "Closed":"",
+    "Type":"tasting room / restaurant",
+    "Coordinates":"33.1344351, -117.1909682"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.0820744,32.9947534 ]
+    },
+    "properties": {
+    "Links":"Second Chance Beer  Co.  (Carmel Mountain Ranch, 2015)",
+    "Open":2015,
+    "Craft Beer":"Second Chance Beer Co.",
+    "Address":"15378 Avenue of Science #222, San Diego, CA 92128",
+    "Closed":"",
+    "Type":"tasting room / brewery",
+    "Coordinates":"32.9947534, -117.0820744"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.8649909,33.0436042 ]
+    },
+    "properties": {
+    "Links":"Smoking Cannon Brewery (Ramona, 2017)",
+    "Open":2017,
+    "Craft Beer":"Smoking Cannon Brewery",
+    "Address":"780 Main St, Ramona, CA 92065",
+    "Closed":"",
+    "Type":"tasting room / brewery",
+    "Coordinates":"33.0436042, -116.8649909"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1463732,32.8338579 ]
+    },
+    "properties": {
+    "Links":"Societe Brewing Co.  (Kearny Mesa, 2012)",
+    "Open":2012,
+    "Craft Beer":"Societe Brewing Co.",
+    "Address":"8262 Clairemont Mesa Blvd San Diego, CA 92111",
+    "Closed":"",
+    "Type":"tasting room / brewery",
+    "Coordinates":"32.8338579, -117.1463732"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1298992,32.7220418 ]
+    },
+    "properties": {
+    "Links":"South Park Brewing Co.  (South Park, 2015)",
+    "Open":2015,
+    "Craft Beer":"South Park Brewing Co.",
+    "Address":"1537 30th Street, San Diego, CA 92102",
+    "Closed":"",
+    "Type":"tasting room / restaurant",
+    "Coordinates":"32.7220418, -117.1298992"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.9554387,33.267594 ]
+    },
+    "properties": {
+    "Links":"SR76 Beerworks  (Valley Center, 2017)",
+    "Open":2017,
+    "Craft Beer":"SR76 Brewery",
+    "Address":"777 Harrah's Rincon Way, Valley Center, CA 92082",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.2675940, -116.9554387"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1634659,32.8804822 ]
+    },
+    "properties": {
+    "Links":"Saint Archer Brewing Co.",
+    "Open":2013,
+    "Craft Beer":"Saint Archer Brewing Co.",
+    "Address":"9550 Distribution Ave. San Diego, CA 92121",
+    "Closed":"",
+    "Type":"tasting room / subsidary of MillerCoors",
+    "Coordinates":"32.8804822, -117.1634659"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1200116,33.1158112 ]
+    },
+    "properties": {
+    "Links":"Stone Brewing Co. / Stone World Bistro and Gardens  (Escondido, 1996)",
+    "Open":1996,
+    "Craft Beer":"Stone Brewing Company",
+    "Address":"1999 Citracado Parkway, Escondido, CA 92029",
+    "Closed":"",
+    "Type":"tasting room / restaurant",
+    "Coordinates":"33.1158112, -117.1200116"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2114812,32.7406063 ]
+    },
+    "properties": {
+    "Links":"Stone World Bistro and Gardens Liberty Station  (Liberty Station, 2013)",
+    "Open":2013,
+    "Craft Beer":"Stone Brewing Liberty Station",
+    "Address":"2816 Historic Decatur Rd #116?, San Diego, CA 92106",
+    "Closed":"",
+    "Type":"tasting room / restaurant",
+    "Coordinates":"32.7406063, -117.2114812"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2193149,33.1049415 ]
+    },
+    "properties": {
+    "Links":"Stumblefoot  Brewing Company  (San Marcos, 2012)",
+    "Open":2012,
+    "Craft Beer":"Stumblefoot Brewing Company",
+    "Address":"1784 La Costa Meadows Dr #103, San Marcos, CA 92078",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1049415, -117.2193149"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1477531,32.7021405 ]
+    },
+    "properties": {
+    "Links":"Thorn Brewing Co. (Barrio Logan, 2017)",
+    "Open":2017,
+    "Craft Beer":"Thorn Brewing Co.",
+    "Address":"1745 National Ave, Barrio Logan, CA 92113",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.7021405, -117.1477531"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1254989,32.7393987 ]
+    },
+    "properties": {
+    "Links":"Thorn St. Brewery  (North Park, 2012)",
+    "Open":2012,
+    "Craft Beer":"Thorn St. Brewery",
+    "Address":"3176 Thorn St., San Diego, CA 92104",
+    "Closed":"",
+    "Type":"tasting room / food served by alternate",
+    "Coordinates":"32.7393987, -117.1254989"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1374768,32.8957913 ]
+    },
+    "properties": {
+    "Links":"Thunderhawk Alements  (Miramar, 2016)",
+    "Open":2016,
+    "Craft Beer":"Thunderhawk Alements",
+    "Address":"8675 Miralani Dr, Suite 100, San Diego, CA 92126",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8957913, -117.1374768"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2268467,33.136757 ]
+    },
+    "properties": {
+    "Links":"Toolbox Brewing  (Vista, 2014)",
+    "Open":2014,
+    "Craft Beer":"Toolbox Brewing",
+    "Address":"1495 Poinsettia Avenue, Suite 148, Vista, CA 92071",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1367570, -117.2268467"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2617788,32.9699356 ]
+    },
+    "properties": {
+    "Links":" Viewpoint Brewing (Del Mar, 2017)",
+    "Open":2017,
+    "Craft Beer":"Viewpoint Brewing Co.",
+    "Address":"2201 San Dieguito Dr, Del Mar, CA 92014",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.9699356, -117.2617788"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2410031,33.2031682 ]
+    },
+    "properties": {
+    "Links":"Wavelength Brewing Co.  (Vista, 2014)",
+    "Open":2014,
+    "Craft Beer":"Wavelength Brewing Co.",
+    "Address":"326 Main Street, Vista, CA 92084",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.2031682, -117.2410031"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.1213738,32.8957219 ]
+    },
+    "properties": {
+    "Links":"White Labs  (Miramar, 2012)",
+    "Open":2012,
+    "Craft Beer":"White Labs",
+    "Address":"9495 Candida Street, San Diego, CA 92126",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"32.8957219, -117.1213738"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.145759,33.140147 ]
+    },
+    "properties": {
+    "Links":"Wild Barrel Brewing Company (San Marcos, 2017)",
+    "Open":2017,
+    "Craft Beer":"Wild Barrel Brewing",
+    "Address":"692 Rancheros Dr, San Marcos, CA 92069",
+    "Closed":"",
+    "Type":"tasting room",
+    "Coordinates":"33.1401470, -117.1457590"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.2700916,33.1345148 ]
+    },
+    "properties": {
+    "Links":"Wiseguy Brewing Co.",
+    "Open":null,
+    "Craft Beer":"Wiseguy Brewing Co.",
+    "Address":"5840 El Camino Real, Suite 100, Carlsbad, CA 92008",
+    "Closed":"Closed 9/30/2018",
+    "Type":"tasting room",
+    "Coordinates":"33.1345148, -117.2700916"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "Links":"",
+    "Open":null,
+    "Craft Beer":"",
+    "Address":"",
+    "Closed":"",
+    "Type":"",
+    "Coordinates":""
+    }
+  }
+]
+}
