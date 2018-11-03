@@ -1,0 +1,206 @@
+[
+  {
+    "State": "Alabama",
+    "Amount": 740495000
+  },
+  {
+    "State": "Alaska",
+    "Amount": 307739000
+  },
+  {
+    "State": "Arizona",
+    "Amount": 1058553000
+  },
+  {
+    "State": "Arkansas",
+    "Amount": 476972000
+  },
+  {
+    "State": "California",
+    "Amount": 8245936000
+  },
+  {
+    "State": "Colorado",
+    "Amount": 3158383000
+  },
+  {
+    "State": "Connecticut",
+    "Amount": 745747000
+  },
+  {
+    "State": "Delaware",
+    "Amount": 361398000
+  },
+  {
+    "State": "DistrictofColumbia",
+    "Amount": 214234000
+  },
+  {
+    "State": "Florida",
+    "Amount": 3563091000
+  },
+  {
+    "State": "Georgia",
+    "Amount": 1696100000
+  },
+  {
+    "State": "Hawaii",
+    "Amount": 276643000
+  },
+  {
+    "State": "Idaho",
+    "Amount": 372821000
+  },
+  {
+    "State": "Illinois",
+    "Amount": 3127229000
+  },
+  {
+    "State": "Indiana",
+    "Amount": 1622305000
+  },
+  {
+    "State": "Iowa",
+    "Amount": 997970000
+  },
+  {
+    "State": "Kansas",
+    "Amount": 509255000
+  },
+  {
+    "State": "Kentucky",
+    "Amount": 764038000
+  },
+  {
+    "State": "Louisiana",
+    "Amount": 885150000
+  },
+  {
+    "State": "Maine",
+    "Amount": 613074000
+  },
+  {
+    "State": "Maryland",
+    "Amount": 910567000
+  },
+  {
+    "State": "Massachusetts",
+    "Amount": 2220868000
+  },
+  {
+    "State": "Michigan",
+    "Amount": 2482858000
+  },
+  {
+    "State": "Minnesota",
+    "Amount": 2066686000
+  },
+  {
+    "State": "Mississippi",
+    "Amount": 312106000
+  },
+  {
+    "State": "Missouri",
+    "Amount": 1234691000
+  },
+  {
+    "State": "Montana",
+    "Amount": 441943000
+  },
+  {
+    "State": "Nebraska",
+    "Amount": 537160000
+  },
+  {
+    "State": "Nevada",
+    "Amount": 465440000
+  },
+  {
+    "State": "NewHampshire",
+    "Amount": 454368000
+  },
+  {
+    "State": "NewJersey",
+    "Amount": 1689145000
+  },
+  {
+    "State": "NewMexico",
+    "Amount": 346553000
+  },
+  {
+    "State": "NewYork",
+    "Amount": 4103780000
+  },
+  {
+    "State": "NorthCarolina",
+    "Amount": 2186388000
+  },
+  {
+    "State": "NorthDakota",
+    "Amount": 237005000
+  },
+  {
+    "State": "Ohio",
+    "Amount": 3122388000
+  },
+  {
+    "State": "Oklahoma",
+    "Amount": 596025000
+  },
+  {
+    "State": "Oregon",
+    "Amount": 2021641000
+  },
+  {
+    "State": "Pennsylvania",
+    "Amount": 6344934000
+  },
+  {
+    "State": "RhodeIsland",
+    "Amount": 196088000
+  },
+  {
+    "State": "SouthCarolina",
+    "Amount": 780451000
+  },
+  {
+    "State": "SouthDakota",
+    "Amount": 221047000
+  },
+  {
+    "State": "Tennessee",
+    "Amount": 1259791000
+  },
+  {
+    "State": "Texas",
+    "Amount": 5282764000
+  },
+  {
+    "State": "Utah",
+    "Amount": 452592000
+  },
+  {
+    "State": "Vermont",
+    "Amount": 326357000
+  },
+  {
+    "State": "Virginia",
+    "Amount": 1640674000
+  },
+  {
+    "State": "Washington",
+    "Amount": 1757639000
+  },
+  {
+    "State": "WestVirginia",
+    "Amount": 309048000
+  },
+  {
+    "State": "Wisconsin",
+    "Amount": 2255993000
+  },
+  {
+    "State": "Wyoming",
+    "Amount": 200781000
+  }
+]
