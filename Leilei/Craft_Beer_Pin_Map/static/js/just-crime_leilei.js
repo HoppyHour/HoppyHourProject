@@ -1,3 +1,4 @@
+
 var myMap = L.map("map", {
   center: [37.7749, -122.4194],
   zoom: 5
@@ -12,11 +13,7 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 }).addTo(myMap);
 
 
-
-
-
-
-d3.json("/static/beer_data_ca.json",function(data) //myData named from app.py file
+d3.json("/static/beer_data_ca.json",function(data)
 {
   for (var i = 0; i < data.length; i++) {
     if(!Number.isNaN(Number.parseFloat(data[i].latitude)) && !Number.isNaN(Number.parseFloat(data[i].longitude))) {

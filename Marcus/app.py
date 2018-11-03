@@ -1,3 +1,8 @@
+import os
+from flask import Flask, render_template, url_for, json
+
+
+
 from flask import Flask, render_template, redirect
 from flask_pymongo import PyMongo
 from pymongo import MongoClient
@@ -65,32 +70,77 @@ def setup():
 @app.route("/")
 def index():
     return render_template("landing_page.html")
-        
-    #beerSales = mongo.db.beerSales.find_one()
-    
-    #return render_template("index.html", beerSales=beerSales)
 
-# Query the database and send the jsonified results
+
+@app.route("/beerData")
+def beerData():
+    return render_template("convertcsv.htm")
 
 @app.route("/viz1") #patricia's landing page
 def viz1():
     
     return render_template("landing_page.html")
 
+from flask import Flask, render_template, url_for, json
+
 @app.route("/viz2")
 def viz2():
     
-    return render_template("index2.html")
+    return render_template('index_leilei.html')
 
-@app.route("/viz3")
+
+
+
+@app.route("/viz2_beerBar")
+def viz2_beerBar():
+    return render_template('index_beerBar.html')
+
+
+@app.route("/viz2_beerMap")
+def viz2_beerMap():
+    
+    return render_template('index_beerMap.html')
+
+@app.route("/viz2_craftBeerHeat")
+def viz2_craftBeerHeat():
+    
+    return render_template('index_craftBeerHeat.html')
+
+#/static/name of json file
+
+
+
+
+
+
+
+
+
+
+
+@app.route("/viz3") #jasmine circle graph
 def viz3():
     
     return render_template("index3.html")
 
-@app.route("/viz4")
+@app.route("/viz4") #muriel's beer analysis
 def viz4():
     
     return render_template("index4.html")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @app.route("/viz5") #patricia's visualization
 def viz5():

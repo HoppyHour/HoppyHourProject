@@ -1,0 +1,1463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        
+          <title>Beer Data</title>
+        
+        <!-- Bootstrap css stylesheet - min -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+            <style>
+            img {
+              width: 85%;
+              height: auto }
+            </style>
+        </head>
+        
+        <body>
+        
+        <div class="container">
+        
+        <!-- Navbar (resizes) based on device -->
+        
+        <nav class="navbar navbar-expand-sm bg-light">
+        
+        
+        
+                <!-- Links -->
+        
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark col-md-12 row">
+        
+                        <!-- Brand -->
+                        <a class="navbar-brand" href="landing_page.html">US Breweries</a>
+        
+                      
+        
+                        <!-- Links -->
+                        <ul class="navbar-nav">
+        
+                          <li class="nav-item">
+        
+                            <a class="nav-link" href="http://127.0.0.1:5000/beerData">San Diego Craft Beer Data</a>
+        
+                          </li>
+        
+                          <!-- Dropdown -->
+        
+                          <li class="nav-item dropdown">
+        
+                              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          
+                                Comparisons
+          
+                              </a>
+          
+                              <div class="dropdown-menu">
+          
+                                <a class="dropdown-item" href="">Muriel</a>
+          
+            
+          
+          
+                              </div>
+                          </li>
+        
+                      
+        
+                          <!-- Dropdown -->
+        
+                          <li class="nav-item dropdown">
+        
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        
+                              Visualizations
+        
+                            </a>
+        
+                            <div class="dropdown-menu">
+        
+                              <a class="dropdown-item" href="">Muriel</a>
+        
+                              <a class="dropdown-item" href="http://127.0.0.1:5000/viz2">Lei Lei - Craft Beer Pin Map</a>
+                              <a class="dropdown-item" href="http://127.0.0.1:5000/viz2_beerBar">Lei Lei - Economic Imapct</a> 
+                              <a class="dropdown-item" href="http://127.0.0.1:5000/viz2_beerMap">Lei Lei - Choropleth Map</a>  
+                              <a class="dropdown-item" href="http://127.0.0.1:5000/viz2_craftBeerHeat">Lei Lei - Heat Map</a> 
+        
+                              <a class="dropdown-item" href="http://127.0.0.1:5000/beerProduction_viz">Marcus - Beer Production</a>
+        
+                              <a class="dropdown-item" href="">Jasmine</a>
+
+                              <a class="dropdown-item" href="http://127.0.0.1:5000/viz5">Patricia</a>
+        
+                            </div>
+        
+                          </li>
+        
+                        </ul>
+        
+                      </nav>
+        
+                    </nav>
+        
+          <div class = "row">
+        
+          </div>
+
+<div class="container">
+  <h2>Hover over the rows / select your favorite brewery to access the website: </h2>
+  <p>The Bootstrap .table-hover class is enabled and a javascript table sort function is available</p>            
+  <table class="table table-bordered table-hover table-condensed">
+    <div class="table-responsive"> 
+
+    <thead>
+
+
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr>
+<th title="Field #1">Open</th>
+<th title="Field #2">Craft Beer</th>
+<th title="Field #3">Address</th>
+<th title="Field #4">Closed</th>
+<th title="Field #5">Type</th>
+<th title="Field #6">Coordinates</th>
+</tr></thead>
+<tbody><tr>
+<td align="left">2013</td>
+<td>2Kids Brewing Co.</td>
+<td>8680 Miralani Drive #123, San Diego, CA 92126</td>
+<td> </td>
+<td>craft brewhouse / nanobrewery</td>
+<td>32.8966532, -117.1372753</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>3 Punk Ales</td>
+<td>259 3rd Avenue, Chula Vista, California 91910 </td>
+<td> </td>
+<td>craft brewhouse</td>
+<td>32.6428434, -117.0801667</td>
+</tr>
+<tr>
+<td align="left">2014</td>
+<td>32 North Brewing</td>
+<td>8555 Production Avenue, Suite A, San Diego, CA 92121</td>
+<td> </td>
+<td>taproom</td>
+<td>32.8806222, -117.1652732</td>
+</tr>
+<tr>
+<td align="left">2015</td>
+<td>Abnormal Beer Company</td>
+<td>16990 Via Tazon, Suite 124, San Diego, CA 92127</td>
+<td> </td>
+<td>brewery restaurant</td>
+<td>33.0236355, -117.0859077</td>
+</tr>
+<tr>
+<td align="left">2018</td>
+<td>Acoustic Ales Brewing Experiment</td>
+<td>1795 Hancock Street, Suite P1, San Diego, CA 92110</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7422734, -117.1846480</td>
+</tr>
+<tr>
+<td align="left">1995</td>
+<td>AleSmith Brewing Company</td>
+<td>9990 AleSmith Ct., San Diego, CA 92126</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8882176, -117.1498210</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Align Brewing Co.</td>
+<td>8680 Miralani Dr, San Diego, CA 92121</td>
+<td> </td>
+<td>taproom</td>
+<td>32.8966532, -117.1372753</td>
+</tr>
+<tr>
+<td align="left">2018</td>
+<td>Alpine Beer Company</td>
+<td>2351 Alpine Boulevard, Alpine CA 91901</td>
+<td> </td>
+<td>taproom</td>
+<td>32.8351688, -116.7626655</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Alta Brewing Company*</td>
+<td>1983 Julian Ave San Diego, California </td>
+<td> </td>
+<td>taproom</td>
+<td>32.7018919, -117.1412748</td>
+</tr>
+<tr>
+<td align="left">2012</td>
+<td>Amplified Ale Works</td>
+<td>4150 Mission Blvd #208, San Diego, CA 92109</td>
+<td> </td>
+<td>taproom</td>
+<td>32.7917660, -117.2543247</td>
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>Amplified Ale Works</td>
+<td>9030 Kenamar Drive, Unit 309, San Diego, CA 92121</td>
+<td> </td>
+<td>taproom</td>
+<td>32.8866311, -117.1571274</td>
+</tr>
+<tr>
+<td align="left">2012</td>
+<td>Arcana Brewing Co.</td>
+<td>5621 Palmer Way, Suite C, Carlsbad, CA 92010</td>
+<td> </td>
+<td>taproom</td>
+<td>33.1402460, -117.2738700</td>
+</tr>
+<tr>
+<td align="left">2018</td>
+<td>Attitude Brewing Company</td>
+<td>1985 National Ave Ste 1115, San Diego, CA 92113</td>
+<td> </td>
+<td>taproom</td>
+<td>32.7000923, -117.1446282</td>
+</tr>
+<tr>
+<td align="left">2010</td>
+<td>Automatic Brewing Company</td>
+<td>3416 Adams Avenue, San Diego, CA 92116</td>
+<td> </td>
+<td>taproom</td>
+<td>32.7634980, -117.1203007</td>
+</tr>
+<tr>
+<td align="left">2011</td>
+<td>Aztec Brewing Company</td>
+<td>2330 La Mirada Dr. Suite 300, Vista CA 92081</td>
+<td> </td>
+<td>taproom</td>
+<td>33.1496470, -117.2300400</td>
+</tr>
+<tr>
+<td align="left">2004</td>
+<td>Back Street Brewery</td>
+<td>15 Main Street, Suite #100, Vista, CA 92084</td>
+<td> </td>
+<td>taproom</td>
+<td>33.2000080, -117.2447420</td>
+</tr>
+<tr>
+<td align="left">2014</td>
+<td>Bagby Beer Company</td>
+<td>601 South Coast Highway, Oceanside CA 92054</td>
+<td> </td>
+<td>brewery restaurant</td>
+<td>33.1893679, -117.3743490</td>
+</tr>
+<tr>
+<td align="left">2006</td>
+<td>Ballast Point Brewing &amp; Spirits - Scripps Ranch</td>
+<td>10051 Old Grove Road, San Diego, CA 92131</td>
+<td> </td>
+<td>brewery restaurant</td>
+<td>32.8985252, -117.1109407</td>
+</tr>
+<tr>
+<td align="left">2014</td>
+<td>Ballast Point Brewing &amp; Spirits (Miramar)</td>
+<td>9045 Carroll Way, San Diego, CA</td>
+<td> </td>
+<td>brewery restaurant</td>
+<td>32.8879565, -117.1579086</td>
+</tr>
+<tr>
+<td align="left">1996</td>
+<td>Ballast Point Brewing &amp; Spirits - Home Brew Mart</td>
+<td>5401 Linda Vista Rd., Suite 406, San Diego, CA 92110</td>
+<td> </td>
+<td>brewery restaurant</td>
+<td>32.7667161, -117.1952639</td>
+</tr>
+<tr>
+<td align="left">2013</td>
+<td>Ballast Point Brewing &amp; Spirits - Little Italy</td>
+<td>2215 India Street, San Diego, CA 92101</td>
+<td> </td>
+<td>brewery restaurant</td>
+<td>32.7276346, -117.1697179</td>
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>Barn Brewery *</td>
+<td>2850 El Cajon Boulevard Ste 3, San Diego, CA 92104</td>
+<td> </td>
+<td>brewery restaurant</td>
+<td>32.7555903, -117.1323809</td>
+</tr>
+<tr>
+<td align="left">2013</td>
+<td>Barrel Harbor</td>
+<td>2575 Pioneer Avenue #104, Vista, CA 92081</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1488745, -117.2215877</td>
+</tr>
+<tr>
+<td align="left">2013</td>
+<td>Barrel Harbor</td>
+<td>8990 Miramar Road, #150, San Diego, CA 92126</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8953877, -117.1323690</td>
+</tr>
+<tr>
+<td align="left">2013</td>
+<td>Barrel Rescue</td>
+<td>8125 Ronson Rd, Unit F, San Diego, CA 92111</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8289272, -117.1479941</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Battlemage Brewing Company</td>
+<td>2870 Scott St, Vista, CA 92081</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1402282, -117.2274366</td>
+</tr>
+<tr>
+<td align="left">2006</td>
+<td>Bay Bridge Brewing *</td>
+<td>688 Marsat Court Suite B, Chula Vista, CA 91911</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.6011946, -117.0832236</td>
+</tr>
+<tr>
+<td align="left">2015</td>
+<td>Bay City Brewing</td>
+<td>3760 Hancock St, San Diego, CA 92110</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7580336, -117.2118028</td>
+</tr>
+<tr>
+<td align="left">2018</td>
+<td>Beach Grease Bear Company *</td>
+<td>1280 Activity Dr, Vista, CA 92081</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1419452, -117.2194286</td>
+</tr>
+<tr>
+<td align="left">2015</td>
+<td>Bear Roots Brewing Co.</td>
+<td>1213 S. Santa Fe Avenue, Vista, CA 92083</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1882451, -117.2263421</td>
+</tr>
+<tr>
+<td align="left">2012</td>
+<td>Belching Beaver Brewery</td>
+<td>980 Park Center Drive, Suite A, Vista, CA 92081</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1450194, -117.2296725</td>
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>Belching Beaver Brewery</td>
+<td>1334 Rocky Point Dr, Oceanside, CA 92056</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.2125240, -117.2915874</td>
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>Belching Beaver Brewery Tavern &amp; Grill</td>
+<td>302 East Broadway, Vista, CA 92084</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.2021206, -117.2410235</td>
+</tr>
+<tr>
+<td align="left">2018</td>
+<td>Bell Marker Brewery and Kitchen </td>
+<td>602 Broadway, San Diego, CA 92101</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7158508, -117.1590883</td>
+</tr>
+<tr>
+<td align="left">2013</td>
+<td>Benchmark Brewing</td>
+<td>6190 Fairmount ave. Suite G, San Diego, CA 92120</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7872447, -117.1020698</td>
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>Bitter Brothers Brewing</td>
+<td>4170 Morena Blvd, San Diego, CA 92117</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8157824, -117.2201636</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Black Plague Brewing</td>
+<td>2550 Jason Ct, Oceanside, CA 92056</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.2156117, -117.2667390</td>
+</tr>
+<tr>
+<td align="left">2013</td>
+<td>BNS Brewing &amp; Distilling</td>
+<td>10960 Wheatlands Avenue #101, Santee, CA 92071</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8466231, -116.9583633</td>
+</tr>
+<tr>
+<td align="left">2014</td>
+<td>Bolt Brewing Co.</td>
+<td>8179 Center Street, La Mesa, CA 91942</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7718969, -117.0205938</td>
+</tr>
+<tr>
+<td align="left">2013</td>
+<td>Booze Brothers Brewing Co.</td>
+<td>2545 Progress St. Suite D, Vista, CA 92081</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1481820, -117.2181424</td>
+</tr>
+<tr>
+<td align="left">2013</td>
+<td>Border X Brewing</td>
+<td>8684 Avenida de la Fuente Suite 8, San Diego, CA 92154</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.5567267, -116.9567731</td>
+</tr>
+<tr>
+<td align="left">2008</td>
+<td>Breakwater Brewing Company</td>
+<td>101 N. Coast Highway, Oceanside, CA 92054</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1950924, -117.3791266</td>
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>Burgeon Beer Company</td>
+<td>6350 Yarrow Dr, Suite C, Carlsbad, CA 92011</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1197823, -117.2729390</td>
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>Burning Beard Brewing Company</td>
+<td>785 Vernon Way, El Cajon, CA 92020</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8117415, -116.9724106</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>California Wild Ales *</td>
+<td>4202 Sorrento Valley BLVD, Suite L&amp;M, San Diego, CA 92121</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.9050831, -117.2151184</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td>ChuckAlek Independent Brewers</td>
+<td>2330 Main St, Suite C, Ramona, CA 92065</td>
+<td>2010</td>
+<td>tasting room</td>
+<td>33.0277812, -116.8892148</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Chula Vista Brewery *</td>
+<td>294 3rd Ave, Chula Vista, CA 91910</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.6415632, -117.0803328</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Circle 9 Brewing</td>
+<td>7292 Opportunity Rd, San Diego, CA 92111</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8257279, -117.1607576</td>
+</tr>
+<tr>
+<td align="left">1996</td>
+<td>Coronado Brewing Company</td>
+<td>170 Orange Avenue, Coronado, CA 92118</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.6977694, -117.1732329</td>
+</tr>
+<tr>
+<td align="left">2013</td>
+<td>Coronado Brewing Company</td>
+<td>1205 Knoxville Street, San Diego, CA 92110</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7718721, -117.2045788</td>
+</tr>
+<tr>
+<td align="left">2014</td>
+<td>Council Brewing Co.</td>
+<td>9962 Prospect Ave, Santee, CA 92071</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8319916, -116.9796314</td>
+</tr>
+<tr>
+
+<td align="left">2014</td>
+<td>Council Brewing Co.</td>
+<td>7705 Convoy Court, San Diego, CA 92111</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8345474, -117.1544514</td>
+</tr>
+<tr>
+<td align="left">2013</td>
+<td>Culture Brewing Co.</td>
+<td>111 S. Cedros Ave Suite 200, Solana Beach, CA 92075</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.9915796, -117.2707116</td>
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>Culver Beer Co.</td>
+<td>2719 Loker Avenue West Suite D, Carlsbad, CA, 92010</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1326935, -117.2585179</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Deft Brewing</td>
+<td>5328 Banks Street, Ste A, San Diego, CA 92110</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7643879, -117.1989393</td>
+</tr>
+<tr>
+<td align="left">2015</td>
+<td>Division 23 Brewing</td>
+<td>7408 Trade St, San Diego, California 92121</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8903390, -117.1628980</td>
+</tr>
+<tr>
+<td align="left">2014</td>
+<td>Dos Desperados Brewing</td>
+<td>1241 Linda Vista Drive, San Marcos, CA 92078</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1369175, -117.1934247</td>
+</tr>
+<tr>
+<td align="left">2015</td>
+<td>Duck Foot Brewing Co.</td>
+<td>8920 Kenamar Dr. Suite #210, San Diego, CA 92121</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8854988, -117.1563922</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Ebullition Brew Works</td>
+<td>2449 Cades, Suite D, Vista, CA 92081</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1537956, -117.2241602</td>
+</tr>
+<tr>
+<td align="left">2018</td>
+<td>Embarcadero Brewing &amp; Supply Company *</td>
+<td>340 W 26th St Ste D, National City, CA 91950</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.6583739, -117.1046897</td>
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>Eppig Brewing</td>
+<td>3052 El Cajon Blvd., Suite C San Diego, CA 92104</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7555796, -117.1287502</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Escondido Brewing Company</td>
+<td>649 Rock Springs Road, Escondido, CA 92025</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1245770, -117.0970089</td>
+</tr>
+<tr>
+<td align="left">2014</td>
+<td>Fall Brewing Co.</td>
+<td>4532 30th Street, San Diego, CA 92104</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7598158, -117.1304601</td>
+</tr>
+<tr>
+<td align="left">2013</td>
+<td>Fallbrook Brewing Company</td>
+<td>136 N Main Ave, Fallbrook, CA 92028</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.3827003, -117.2515165</td>
+</tr>
+<tr>
+<td align="left">2018</td>
+<td>Fourpenny House</td>
+<td>8323 La Mesa Blvd., La Mesa, CA 91942</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7648916, -117.0183293</td>
+</tr>
+<tr>
+<td align="left">1998</td>
+<td>Gordon Biersch Brewery Restaurant</td>
+<td>5010 Mission Center Road, San Diego, CA 92108</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7670751, -117.1539108</td>
+</tr>
+<tr>
+<td align="left">2002</td>
+<td>Green Flash Brewing Co.</td>
+<td>6550 Mira Mesa Blvd., San Diego, CA 92121</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.9071098, -117.1777588</td>
+</tr>
+<tr>
+<td align="left">2013</td>
+<td>Groundswell Brewing Co.</td>
+<td>6304 Riverdale Street, San Diego, CA 92120</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7889952, -117.0997872</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Groundswell Brewing Co.</td>
+<td>10151 Prospect Avenue, Santee, CA 92071</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8307147, -116.9766879</td>
+</tr>
+<tr>
+<td align="left">2018</td>
+<td>Guadalupe Brewery</td>
+<td>5650 El Camino Real, Carlsbad, CA 92008</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1395403, -117.2746495</td>
+</tr>
+<tr>
+<td align="left">2015</td>
+<td>Half Door Brewing Co.</td>
+<td>903 Island Avenue, San Diego, CA 92101</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7102641, -117.1562711</td>
+</tr>
+<tr>
+<td align="left">2012</td>
+<td>Helm&#39;s Brewing</td>
+<td>5640 Kearny Mesa Rd, Suite C/N, San Diego, CA 92111</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8373203, -117.1390676</td>
+</tr>
+<tr>
+<td align="left">2015</td>
+<td>Helix Brewing Co.</td>
+<td>8101 Commercial Street, La Mesa, CA 91942</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7720182, -117.0233413</td>
+</tr>
+<tr>
+<td align="left">2012</td>
+<td>Hillcrest Brewing Company</td>
+<td>1458 University Ave, San Diego, CA 92103</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7491060, -117.1499114</td>
+</tr>
+<tr>
+<td align="left">2015</td>
+<td>Home Brewing Co.</td>
+<td>2911 El Cajon Boulevard, Space #2, San Diego, CA 92104</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7550890, -117.1309940</td>
+</tr>
+<tr>
+<td align="left">2018</td>
+<td>Horus Aged Ales</td>
+<td>Oceanside, CA 92154</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.2435330, -117.3091269</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Indian Joe Brewing</td>
+<td>2123 Industrial Ct, Vista, CA 92081</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1694243, -117.2204901</td>
+</tr>
+<tr>
+<td align="left">2013</td>
+<td>Intergalactic Brewing Co</td>
+<td>9835 Carroll Centre, Suite 108, San Diego, CA 92126</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8987471, -117.1206384</td>
+</tr>
+<tr>
+<td align="left">2010</td>
+<td>Iron Fist Brewing Company</td>
+<td>1305 Hot Spring Way #101, Vista, CA 92081</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1450803, -117.2390501</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Jacked Up Brewing</td>
+<td>800 West Grand Ave, Escondido, CA 92025</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1172440, -117.0916500</td>
+</tr>
+<tr>
+<td align="left">2013</td>
+<td>Jamul Brewing Co.</td>
+<td>Jamul, CA 91935</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7169988, -116.8761347</td>
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>Julian Brewing Company *</td>
+<td>2315 Main Street, Julian, CA 92036</td>
+<td> </td>
+<td>brewery</td>
+<td>33.0793706, -116.6038382</td>
+</tr>
+<tr>
+<td align="left">2012</td>
+<td>Karl Strauss 4S Ranch</td>
+<td>10448 Reserve Drive, San Diego, CA 92127</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.0214603, -117.1134033</td>
+</tr>
+<tr>
+<td align="left">1999</td>
+<td>Karl Strauss Carlsbad</td>
+<td>5801 Armada Drive, Carlsbad, CA 92008</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1244064, -117.3140153</td>
+</tr>
+<tr>
+<td align="left">1989</td>
+<td>Karl Strauss Downtown</td>
+<td>1157 Columbia Street, San Diego, CA 92101</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7174547, -117.1670758</td>
+</tr>
+<tr>
+<td align="left">2004</td>
+<td>Karl Strauss La Jolla</td>
+<td>1044 Wall Street, La Jolla, CA 92037</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8471174, -117.2735361</td>
+</tr>
+<tr>
+<td align="left">1996</td>
+<td>Karl Strauss</td>
+<td>5985 Santa Fe Street, San Diego, CA 92109</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8320492, -117.2312344</td>
+</tr>
+<tr>
+<td align="left">1994</td>
+<td>Karl Strauss Sorrento Mesa</td>
+<td>9675 Scranton Rd, San Diego, CA 92121</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8965350, -117.2017648</td>
+</tr>
+<tr>
+<td align="left">2012</td>
+<td>Kensington Brewing Company</td>
+<td>4067 Adams Ave  San Diego,CA 92116 </td>
+<td></td>
+<td>tasting room</td>
+<td>32.7630155, -117.1079066</td>
+</tr>
+<tr>
+<td align="left">2018</td>
+<td>Ketch Brewing *</td>
+<td>7889 Ostrow Street, San Diego, California</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8132612, -117.1552894</td>
+</tr>
+<tr>
+<td align="left">2015</td>
+<td>Kilowatt Brewing Company</td>
+<td>7576 Clairemont Mesa Blvd., San Diego, CA 92111</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8331085, -117.1563692</td>
+</tr>
+<tr>
+<td align="left">2018</td>
+<td>KnB Brewery</td>
+<td>6380 Del Cerro Blvd, San Diego, CA 92120</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7840052, -117.0599295</td>
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>Knotty Brewing Co.</td>
+<td>842 Market St, San Diego, CA 92101</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7117775, -117.1568517</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td>Kuracali Sake &amp; Beer Brewery</td>
+<td>175 Bosstick Blvd. #104, San Marcos, CA 92069</td>
+<td>2017</td>
+<td>tasting room</td>
+<td>33.1616463, -117.2012594</td>
+</tr>
+<tr>
+<td align="left">2018</td>
+<td>KO Brewery Restaurant &amp; Bar *</td>
+<td>1320 5th Ave., San Diego, CA 92101</td>
+<td> </td>
+<td>Gastropub</td>
+<td>32.7191663, -117.1605279</td>
+</tr>
+<tr>
+<td align="left">2018</td>
+<td>Latchkey Brewing </td>
+<td>2120 W Washington St., San Diego, CA 92110</td>
+<td> </td>
+<td>brewery</td>
+<td>32.7419090, -117.1835198</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>La Jolla Beer Co.</td>
+<td>7536 Fay Avenue, San Diego, CA 92037</td>
+<td> </td>
+<td>Gastropub</td>
+<td>32.8407895, -117.2744546</td>
+</tr>
+<tr>
+<td align="left">2012</td>
+<td>Latitude 33 Brewing Company</td>
+<td>1430 Vantage Court, Suite 104, Vista, CA 92081</td>
+<td> </td>
+<td>brewery</td>
+<td>33.1360340, -117.2248630</td>
+</tr>
+<tr>
+<td align="left">2013</td>
+<td>Legacy Brewing Company</td>
+<td>363 Airport Road Oceanside, CA 92058</td>
+<td> </td>
+<td>brewery</td>
+<td>33.2153901, -117.3507698</td>
+</tr>
+<tr>
+<td align="left">2006</td>
+<td>Lightning Brewery *</td>
+<td>13200 Kirkham Way, Suite 106, Poway, CA 92064</td>
+<td> </td>
+<td>brewery</td>
+<td>32.9354924, -117.0435079</td>
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>Little Miss Brewing</td>
+<td>7649 Stromesa Ct, Suite Y, San Diego, CA 92126</td>
+<td> </td>
+<td>brewery</td>
+<td>32.8925649, -117.1484446</td>
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>Longship Brewery</td>
+<td>10320 Camino Santa Fe, San Diego, CA 92121</td>
+<td> </td>
+<td>brewery</td>
+<td>32.9040608, -117.1714639</td>
+</tr>
+<tr>
+<td align="left">2015</td>
+<td>Mason Ale Works</td>
+<td>2002 S Coast Hwy, Oceanside, CA, 92054</td>
+<td> </td>
+<td>brewery</td>
+<td>33.1720729, -117.3591228</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Mason Ale Works</td>
+<td>255 Redel Rd, San Marcos, CA 92078</td>
+<td> </td>
+<td>brewery</td>
+<td>33.1358939, -117.1585644</td>
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>Midnight Jack Brewing Company *</td>
+<td>3801 Oceanic Dr, Oceanside, CA 92058</td>
+<td> </td>
+<td>brewery</td>
+<td>33.2051540, -117.3046252</td>
+</tr>
+<tr>
+<td align="left">2013</td>
+<td>Mike Hess Brewing</td>
+<td>3812 Grim Avenue, San Diego, CA 92104</td>
+<td> </td>
+<td>brewery</td>
+<td>32.7476888, -117.1285434</td>
+</tr>
+<tr>
+<td align="left">2015</td>
+<td>Mikkeller Brewing San Diego</td>
+<td>9368 Cabbot Dr, San Diego, CA 92126</td>
+<td> </td>
+<td>brewery</td>
+<td>32.8923805, -117.1447381</td>
+</tr>
+<tr>
+<td align="left">2008</td>
+<td>Mission Brewery</td>
+<td>1441 L Street, San Diego, CA 92101</td>
+<td> </td>
+<td>brewery</td>
+<td>32.7071477, -117.1515916</td>
+</tr>
+<tr>
+<td align="left">2013</td>
+<td>Modern Times</td>
+<td>3725 Greenwood Street, San Diego, CA 92110</td>
+<td> </td>
+<td>brewery</td>
+<td>32.7542044, -117.2061981</td>
+
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>Monkey Paw Pub &amp; Brewery</td>
+<td>805 16th Street, San Diego, CA 92101</td>
+<td> </td>
+<td>brewery</td>
+<td>32.7138573, -117.1492466</td>
+</tr>
+<tr>
+<td align="left">2010</td>
+<td>Mother Earth Brew Company</td>
+<td>2055 Thibodo Road, Suite H, Vista, CA 92081</td>
+<td> </td>
+<td>brewery</td>
+<td>33.1677133, -117.2203174</td>
+</tr>
+<tr>
+<td align="left">2008</td>
+<td>New English Brewing Company</td>
+<td>11545 Sorrento Valley Road, Suite 305, San Diego, CA 92121</td>
+<td> </td>
+<td>brewery</td>
+<td>32.9127354, -117.2306057</td>
+</tr>
+<tr>
+<td align="left">2013</td>
+<td>Nickel Beer Company</td>
+<td>1485 Hollow Glen Road, Julian, CA 92036</td>
+<td> </td>
+<td>brewery</td>
+<td>33.0765814, -116.5905432</td>
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>North Park Beer Co</td>
+<td>3038 University Ave, San Diego, CA 92104</td>
+<td> </td>
+<td>brewery</td>
+<td>32.7487183, -117.1291179</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Northern Pine Brewing Company</td>
+<td>326 N. Horne, Oceanside, CA 92054</td>
+<td> </td>
+<td>brewery</td>
+<td>33.1998358, -117.3769334</td>
+</tr>
+<tr>
+<td align="left">2015</td>
+<td>Novo Brazil Brewing Co.</td>
+<td>901 Lane Av, Chula Vista, California 91914</td>
+<td> </td>
+<td>brewery</td>
+<td>32.6520158, -116.9614181</td>
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>OB Brewery</td>
+<td>5041 Newport Ave, San Diego, CA 92107</td>
+<td> </td>
+<td>brewery</td>
+<td>32.7472201, -117.2519729</td>
+</tr>
+<tr>
+<td align="left">2002</td>
+<td>Oceanside Ale Works</td>
+<td>1800 Ord Way, Oceanside, CA 92056</td>
+<td>2017</td>
+<td>brewery</td>
+<td>33.2116113, -117.2727150</td>
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>Oceanside Brewing Company *</td>
+<td>312 Via Del Norte, Oceanside, CA 92058</td>
+<td> </td>
+<td>brewery</td>
+<td>33.2128018, -117.3522371</td>
+</tr>
+<tr>
+<td align="left">1991</td>
+<td>Oggi&#39;s Pizza and Brewing Company</td>
+<td>Carmel Mountain, CA</td>
+<td> </td>
+<td>brewery</td>
+<td>32.9805356, -117.0735241</td>
+</tr>
+<tr>
+<td align="left">2011</td>
+<td>O&#39;Sullivan Brother&#39;s Brewing</td>
+<td>9879 Hibert Street, Suite F, San Diego, CA 92131</td>
+<td> </td>
+<td>brewery</td>
+<td>32.9132595, -117.1127791</td>
+</tr>
+<tr>
+<td align="left">2018</td>
+<td>Papa Marce&#39;s Cerveceria</td>
+<td>5840 El Camino Real Ste. 100, Carlsbad, 92008</td>
+<td> </td>
+<td>brewery</td>
+<td>33.1345148, -117.2700916</td>
+</tr>
+<tr>
+<td align="left">2007</td>
+<td>Pacific Beach Ale House</td>
+<td>721 Grand Avenue, San Diego, CA 92109</td>
+<td> </td>
+<td>brewery</td>
+<td>32.7943249, -117.2553488</td>
+</tr>
+<tr>
+<td align="left">2015</td>
+<td>Pacific Islander Beer Co.</td>
+<td>8665 Argent St Ste B, Santee, CA 92071</td>
+<td> </td>
+<td>brewery</td>
+<td>32.8328875, -116.9889673</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Pariah Brewing Company</td>
+<td>3052 El Cajon Blvd, Suite B, San Diego, CA 92104</td>
+<td> </td>
+<td>brewery</td>
+<td>32.7555796, -117.1287502</td>
+</tr>
+<tr>
+<td align="left">2014</td>
+<td>Pizza Port Bressi Ranch</td>
+<td>2730 Gateway Road, Carlsbad, CA 92009</td>
+<td> </td>
+<td>brewery</td>
+<td>33.1286712, -117.2500668</td>
+</tr>
+<tr>
+<td align="left">1997</td>
+<td>Pizza Port Carlsbad</td>
+<td>571 Carlsbad Village Drive, Carlsbad, CA 92008</td>
+<td> </td>
+<td>brewery</td>
+<td>33.1599094, -117.3477378</td>
+</tr>
+<tr>
+<td align="left">2010</td>
+<td>Pizza Port Ocean Beach</td>
+<td>1956 Bacon Street, San Diego CA 92107</td>
+<td> </td>
+<td>brewery</td>
+<td>32.7479652, -117.2503020</td>
+</tr>
+<tr>
+<td align="left">1992</td>
+<td>Pizza Port Solana Beach</td>
+<td>135 North Highway 101, Solana Beach, 92075</td>
+<td> </td>
+<td>brewery</td>
+<td>32.9929230, -117.2722160</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Plan 9 Ale House</td>
+<td>155 E. Grand Avenue, Escondido, CA 92025</td>
+<td> </td>
+<td>Gastropub</td>
+<td>33.1219384, -117.0801782</td>
+</tr>
+<tr>
+<td align="left">2012</td>
+<td>Poor House Brewing Company *</td>
+<td>4494 30th Street, San Diego, CA 92116</td>
+<td> </td>
+<td>brewery</td>
+<td>32.7589732, -117.1303887</td>
+</tr>
+<tr>
+<td align="left">2006</td>
+<td>Port Brewing / The Lost Abbey</td>
+<td>155 Mata Way #104, San Marcos, CA 92069</td>
+<td> </td>
+<td>brewery</td>
+<td>33.1416287, -117.1493614</td>
+</tr>
+<tr>
+<td align="left">2014</td>
+<td>Prodigy Brewing Company</td>
+<td>San Marcos, CA</td>
+<td> </td>
+<td>brewery / no tasting room</td>
+<td>33.1433723, -117.1661449</td>
+</tr>
+<tr>
+<td align="left">2011</td>
+<td>Prohibition Brewing Company</td>
+<td>2004 E. Vista Way Vista, CA 92084</td>
+<td> </td>
+<td>brewery</td>
+<td>33.2304468, -117.2265948</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Protector Brewery</td>
+<td>8680 Miralani Dr #128, San Diego, CA 92126</td>
+<td> </td>
+<td>brewery</td>
+<td>32.8966532, -117.1372753</td>
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>Pure Project Brewing</td>
+<td>9030 Kenamar Dr #308 San Diego, Ca 92121</td>
+<td> </td>
+<td>brewery</td>
+<td>32.8866311, -117.1571274</td>
+</tr>
+<tr>
+<td align="left">2014</td>
+<td>Quantum Brewing Co.</td>
+<td>5375 Kearny Villa Road #116, San Diego, CA 92123</td>
+<td> </td>
+<td>brewery</td>
+<td>32.8308894, -117.1384012</td>
+</tr>
+<tr>
+<td align="left">2015</td>
+<td>Reckless Brewing Co.</td>
+<td>9040 Carroll Way, Suite 8, San Diego, CA 92121</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8880071, -117.1596088</td>
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>Resident Brewing Co.</td>
+<td>411 C St, San Diego, CA 92101</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7165795, -117.1605885</td>
+</tr>
+<tr>
+<td align="left">2012</td>
+<td>Rip Current Brewing Co.</td>
+<td>4101 30th Street, San Diego, CA 92104</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7523763, -117.1299372</td>
+</tr>
+<tr>
+<td align="left">2012</td>
+<td>Rip Current Brewing Co.</td>
+<td>1325 Grand Avenue #100, San Marcos, CA 92078</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1427524, -117.1925073</td>
+</tr>
+<tr>
+<td align="left">1998</td>
+<td>Rock Bottom Brewery Restaurant La Jolla</td>
+<td>8980 Villa La Jolla Drive, San Diego, CA 92037</td>
+<td> </td>
+<td>tasting room / restaurant</td>
+<td>32.8712909, -117.2342660</td>
+</tr>
+<tr>
+<td align="left">2012</td>
+<td>Rough Draft Brewing Company</td>
+<td>8830 Rehco Rd. Suite D, San Diego CA 92121</td>
+<td> </td>
+<td>tasting room / restaurant</td>
+<td>32.8834869, -117.1717856</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Rouleur Brewing Company</td>
+<td>5840 El Camino Real, Suite 101, Carlsbad, CA 92008</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1345148, -117.2700916</td>
+</tr>
+<tr>
+<td align="left">1993</td>
+<td>San Diego Brewing Company</td>
+<td>10450 Friars Rd. Ste. L, San Diego, CA 92120</td>
+<td> </td>
+<td>tasting room / restaurant</td>
+<td>32.7921228, -117.0991740</td>
+</tr>
+<tr>
+<td align="left">1993</td>
+<td>San Diego Brewing Company</td>
+<td>3052 El Cajon Blvd, San Diego, CA 92104</td>
+<td> </td>
+<td>tasting room / restaurant</td>
+<td>32.7555796, -117.1287502</td>
+</tr>
+<tr>
+<td align="left">1991</td>
+<td>San Marcos Brewery &amp; Grill</td>
+<td>1080 W. San Marcos Blvd. #108, San Marcos, CA 92078</td>
+<td> </td>
+<td>tasting room / restaurant</td>
+<td>33.1344351, -117.1909682</td>
+</tr>
+<tr>
+<td align="left">2015</td>
+<td>Second Chance Beer Co.</td>
+<td>15378 Avenue of Science #222, San Diego, CA 92128</td>
+<td> </td>
+<td>tasting room / brewery</td>
+<td>32.9947534, -117.0820744</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Smoking Cannon Brewery</td>
+<td>780 Main St, Ramona, CA 92065</td>
+<td> </td>
+<td>tasting room / brewery</td>
+<td>33.0436042, -116.8649909</td>
+</tr>
+<tr>
+<td align="left">2012</td>
+<td>Societe Brewing Co.</td>
+<td>8262 Clairemont Mesa Blvd San Diego, CA 92111</td>
+<td> </td>
+<td>tasting room / brewery</td>
+<td>32.8338579, -117.1463732</td>
+</tr>
+<tr>
+<td align="left">2015</td>
+<td>South Park Brewing Co.</td>
+<td>1537 30th Street, San Diego, CA 92102</td>
+<td> </td>
+<td>tasting room / restaurant</td>
+<td>32.7220418, -117.1298992</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>SR76 Brewery</td>
+<td>777 Harrah&#39;s Rincon Way, Valley Center, CA 92082</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.2675940, -116.9554387</td>
+</tr>
+<tr>
+<td align="left">2013</td>
+<td>Saint Archer Brewing Co.</td>
+<td>9550 Distribution Ave. San Diego, CA 92121</td>
+<td> </td>
+<td>tasting room / subsidary of MillerCoors</td>
+<td>32.8804822, -117.1634659</td>
+</tr>
+<tr>
+<td align="left">1996</td>
+<td>Stone Brewing Company</td>
+<td>1999 Citracado Parkway, Escondido, CA 92029</td>
+<td> </td>
+<td>tasting room / restaurant</td>
+<td>33.1158112, -117.1200116</td>
+</tr>
+<tr>
+<td align="left">2013</td>
+<td>Stone Brewing Liberty Station</td>
+<td>2816 Historic Decatur Rd #116?, San Diego, CA 92106</td>
+<td> </td>
+<td>tasting room / restaurant</td>
+<td>32.7406063, -117.2114812</td>
+</tr>
+<tr>
+<td align="left">2012</td>
+<td>Stumblefoot Brewing Company</td>
+<td>1784 La Costa Meadows Dr #103, San Marcos, CA 92078</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1049415, -117.2193149</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Thorn Brewing Co.</td>
+<td>1745 National Ave, Barrio Logan, CA 92113</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.7021405, -117.1477531</td>
+</tr>
+<tr>
+<td align="left">2012</td>
+<td>Thorn St. Brewery</td>
+<td>3176 Thorn St., San Diego, CA 92104</td>
+<td> </td>
+<td>tasting room / food served by alternate</td>
+<td>32.7393987, -117.1254989</td>
+</tr>
+<tr>
+<td align="left">2016</td>
+<td>Thunderhawk Alements</td>
+<td>8675 Miralani Dr, Suite 100, San Diego, CA 92126</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8957913, -117.1374768</td>
+</tr>
+<tr>
+<td align="left">2014</td>
+<td>Toolbox Brewing</td>
+<td>1495 Poinsettia Avenue, Suite 148, Vista, CA 92071</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1367570, -117.2268467</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Viewpoint Brewing Co.</td>
+<td>2201 San Dieguito Dr, Del Mar, CA 92014</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.9699356, -117.2617788</td>
+</tr>
+<tr>
+<td align="left">2014</td>
+<td>Wavelength Brewing Co.</td>
+<td>326 Main Street, Vista, CA 92084</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.2031682, -117.2410031</td>
+</tr>
+<tr>
+<td align="left">2012</td>
+<td>White Labs</td>
+<td>9495 Candida Street, San Diego, CA 92126</td>
+<td> </td>
+<td>tasting room</td>
+<td>32.8957219, -117.1213738</td>
+</tr>
+<tr>
+<td align="left">2017</td>
+<td>Wild Barrel Brewing</td>
+<td>692 Rancheros Dr, San Marcos, CA 92069</td>
+<td> </td>
+<td>tasting room</td>
+<td>33.1401470, -117.1457590</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td>Wiseguy Brewing Co.</td>
+<td>5840 El Camino Real, Suite 100, Carlsbad, CA 92008</td>
+<td>2018</td>
+<td>tasting room</td>
+<td>33.1345148, -117.2700916</td>
+</tr>
+</tbody></table>
+
+
+  
+</div>
+
+</body>
+</html>
