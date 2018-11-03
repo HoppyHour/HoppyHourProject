@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hoppy Project Analysis</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+<style>
+  img 
+  {
+    width: 100%;
+    height: auto;
+  }
+</style>
+
+</head>
+
+<body>
+<div class="container">
+<!-- A grey horizontal navbar that becomes vertical on small screens -->
+<nav class="navbar navbar-expand-sm bg-light">
+
+        <!-- Links -->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark col-md-12 row">
+
+                <!-- Navbar Brand -->
+                <a class="navbar-brand" href="https://PAT-HURLCOKER.github.io/WeatherData.html">US Breweries</a>
+
+                <!-- Links -->
+                <ul class="navbar-nav">
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="data/convertcsv.htm">Data</a>
+                  </li>
+                  <!-- Dropdown -->
+                  <li class="nav-item dropdown">
+
+                      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Comparisons
+                      </a>
+  
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://PAT-HURLCOKER.github.io/Comparison_1.html">Murial</a>
+                        <a class="dropdown-item" href="https://PAT-HURLCOKER.github.io/Comparison_2.html">Lei Lei</a>
+                      </div>
+                    </li>
+               
+                  <!-- Dropdown -->
+                  <li class="nav-item dropdown">
+
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                      Visualizations
+                    </a>
+
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="http://127.0.0.1:5000/viz1">Muriel</a>
+                      <a class="dropdown-item" href="http://127.0.0.1:5000/viz2">Lei Lei</a>
+                      <a class="dropdown-item" href="http://127.0.0.1:5000/beerProduction_viz">Marcus</a>
+                      <a class="dropdown-item" href="http://127.0.0.1:5000/viz4">Jasmine</a>
+                      <a class="dropdown-item" href="http://127.0.0.1:5000/viz5">Patricia</a>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+</nav>
+
+
+
+<div class = "row">
+
+
+
+  <div class = "col-md-5">
+    <br>
+    <img src="static/brew-images.png" alt="flight_beers" width="546" height="363">
+
+  </div>
+
+  <div class = "col-md-7">
+
+    <br>
+      <p>Our effort today is to provide the students and faculty of the UCSD Extension Data Sciences and Visualization program an opportunity to view 
+        our visualizations from various data sets (data sources provided from Craft Beer in San Diego https://craftbeerinsandiego.com and the following web resources).  
+        All source data and visualizations are provided for reference.</p>
+      </p>
+     
+      <p>Our analysis was to visualize and understand Craft Brewing and its increase in popularity. We used Python/Pandas with Matplotlib 
+        components to plot the data.  Mapping technology to show brewery data across the United States and the San Diego Craft Breweries. </p>  
+     <div class = "col-md-8">
+     </div>  
+
+     <div class = "col-md-4">
+      <script type="text/javascript">
+
+        var slideimages = new Array() // create new array to preload images
+        slideimages[0] = new Image() // create new instance of image object
+        slideimages[0].src = "static/2kids.png" // set image src property to image path, preloading image in the process
+        slideimages[1] = new Image()
+        slideimages[1].src = "static/alesmith.png"
+        slideimages[2] = new Image()
+        slideimages[2].src = "static/baybridge.png"
+        slideimages[3] = new Image()
+        slideimages[3].src = "static/altabrewingco.png"
+        slideimages[4] = new Image()
+        slideimages[4].src = "static/amplifiedale.png"
+        slideimages[5] = new Image()
+        slideimages[5].src = "static/brewery-mission.png"
+        slideimages[6] = new Image()
+        slideimages[6].src = "static/brewery-aztec.png"
+        slideimages[7] = new Image()
+        slideimages[7].src = "static/brewery-ballast-point.png"
+        slideimages[8] = new Image()
+        slideimages[8].src = "static/brewery-green-flash.png"
+        slideimages[9] = new Image()
+        slideimages[9].src = "static/brewery-manzanita.png"
+        slideimages[10] = new Image()
+        slideimages[10].src = "static/brewery-alpinebeer.png"
+        slideimages[11] = new Image()
+        slideimages[11].src = "static/backstreetbrew.jpg"
+        slideimages[12] = new Image()
+        slideimages[12].src = "static/chuckalek.png"
+        slideimages[13] = new Image()
+        slideimages[13].src = "static/brewery-hess.png"
+        slideimages[14] = new Image()
+        slideimages[14].src = "static/brewery-acoustic-ales.png"
+        slideimages[15] = new Image()
+        slideimages[15].src = "static/brewery-oceanside-aleworks.png"
+        slideimages[16] = new Image()
+        slideimages[16].src = "static/brewery-white-labs.png"
+        slideimages[17] = new Image()
+        slideimages[17].src = "static/Embarcadero Brewing and Supply.jpg"
+        slideimages[18] = new Image()
+        slideimages[18].src = "static/latitude33.png"
+        slideimages[19] = new Image()
+        slideimages[19].src = "static/motherearth.png"
+        slideimages[20] = new Image()
+        slideimages[20].src = "static/oggis.png"
+        slideimages[21] = new Image()
+        slideimages[21].src = "static/PAPA-MARCES-LOGO.png"
+        slideimages[22] = new Image()
+        slideimages[22].src = "static/Plan9alehouse.jpg"
+        slideimages[23] = new Image()
+        slideimages[23].src = "static/rockbottom.png"
+        slideimages[24] = new Image()
+        slideimages[24].src = "static/reckless-logo2.jpg"
+        slideimages[25] = new Image()
+        slideimages[25].src = "static/quaff.jpg"
+        slideimages[26] = new Image()
+        slideimages[26].src = "static/prodogy.jpg"
+        slideimages[27] = new Image()
+        slideimages[27].src = "static/stonebrewery.png"
+        slideimages[28] = new Image()
+        slideimages[28].src = "static/stumblefoot.png"
+        slideimages[29] = new Image()
+        slideimages[29].src = "static/thornstreetbrew.png"
+        slideimages[30] = new Image()
+        slideimages[30].src = "static/brewery-lost-abbey.png"
+        slideimages[31] = new Image()
+        slideimages[31].src = "static/coronadobrew.png"
+        slideimages[32] = new Image()
+        slideimages[32].src = "static/Council.jpg"
+        slideimages[33] = new Image()
+        slideimages[33].src = "static/greenflash.jpg"
+        slideimages[34] = new Image()
+        slideimages[34].src = "static/guadalupe.png"
+        slideimages[35] = new Image()
+        slideimages[35].src = "static/horus.jpg"
+        slideimages[36] = new Image()
+        slideimages[36].src = "static/Kensington RPT 1.jpg"
+        slideimages[37] = new Image()
+        slideimages[37].src = "static/stonebrewery.png"
+        slideimages[38] = new Image()
+        slideimages[38].src = "static/duckfoot.png"
+        slideimages[39] = new Image()
+        slideimages[39].src = "static/kilowatt.png"
+        slideimages[40] = new Image()
+        slideimages[40].src = "static/thelostabbey.png"
+        
+      </script>
+        
+        <body>
+        <img src="static/2kids.png" id="slide" width="20" height="10" />
+        
+        <script type="text/javascript">
+        
+        //variable that will increment through the images
+        var step=0
+        
+        function slideit(){
+         //if browser does not support the image object, exit.
+         if (!document.images)
+          return
+         document.getElementById('slide').src = slideimages[step].src
+         if (step<40)
+          step++
+         else
+          step=0
+         //call function "slideit()" every 2. seconds
+         setTimeout("slideit()",2000)
+        }
+        
+        slideit()
+        
+        </script>
+     </div> 
+  <br>    
+  <br> 
+
+  <div class = "row">
+  <div class = "col-md-12">
+    <p>Our objective is to build a series of visualizations to showcase the following: 
+      <ul>
+        <li>San Diego Craft Breweries (table data with JavaScript sorting library)</li>
+        <li>San Diego Craft Breweries / Taproom locations (geo mapping and leaflty ploting)</li>
+        <li>United States Craft Brewing vs United States Brew Consumption</li>
+        <li>  (%) vs.   </li>
+        <li> vs. </li>
+        <li>San Diego Craft Brewery Growth from 1990 to present day</li>
+      </ul>
+    </p>
+    <p>Our project used a simple <a href="https://pypi.python.org">[Python library]</a> , and the <a href="https://api.tiles.mapbox.com">
+         MapBox API]</a>.  We created representative models of brewery locations across the US and San Diego County.</p>  
+    <br>
+           
+  </div>      
+      
+</div>   
+
+</div>              
+
+</body>

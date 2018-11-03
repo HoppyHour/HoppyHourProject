@@ -64,6 +64,41 @@ def setup():
 # Set route
 @app.route("/")
 def index():
+    return render_template("landing_page.html")
+        
+    #beerSales = mongo.db.beerSales.find_one()
+    
+    #return render_template("index.html", beerSales=beerSales)
+
+# Query the database and send the jsonified results
+
+@app.route("/viz1") #patricia's landing page
+def viz1():
+    
+    return render_template("landing_page.html")
+
+@app.route("/viz2")
+def viz2():
+    
+    return render_template("index2.html")
+
+@app.route("/viz3")
+def viz3():
+    
+    return render_template("index3.html")
+
+@app.route("/viz4")
+def viz4():
+    
+    return render_template("index4.html")
+
+@app.route("/viz5") #patricia's visualization
+def viz5():
+    
+    return render_template("patricia_index.html")
+
+@app.route("/beerProduction_viz") #marcus visualization
+def beerProduction_viz():
     #Create connection variable
     client = MongoClient('mongodb://localhost:27017/')
     db=client.beerProduction
@@ -79,12 +114,8 @@ def index():
     #     data.append(x)
     # print(data)
     return render_template("index.html", beerSales=beerSales)
-        
-    #beerSales = mongo.db.beerSales.find_one()
-    
-    #return render_template("index.html", beerSales=beerSales)
 
-# Query the database and send the jsonified results
+
 
 @app.route("/beerGraph")
 def beerGraph():

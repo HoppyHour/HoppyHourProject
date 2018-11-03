@@ -292,156 +292,349 @@ function load() {
   // console.log(date10);
   // console.log(date11);
   // console.log(date12);
-  console.log(date1);
-  console.log(total_barrels1);
-  console.log(taxable_removals1);
-  console.log(total_shipped_exported1);
+
+
+
+
+
+
+
+
+//   console.log("1 Data");
+//   console.log(date1);
+//   console.log(total_barrels1);
+//   console.log(taxable_removals1);
+//   console.log(total_shipped_exported1);
   
-  console.log(date2);
-  console.log(total_barrels2);
-  console.log(total_barrels2);
-  console.log(taxable_removals1);
-  console.log(total_shipped_exported2);
+//   console.log("2 Data");
+//   console.log(date2);
+//   console.log(total_barrels2);
+//   console.log(taxable_removals2);
+//   console.log(total_shipped_exported2);
 
-  console.log(date3);
-  console.log(total_barrels3);
-  console.log(total_barrels3);
-  console.log(taxable_removals3);
-  console.log(total_shipped_exported3);
+//   console.log("3 Data");
+//   console.log(date3);
+//   console.log(total_barrels3);
+//   console.log(taxable_removals3);
+//   console.log(total_shipped_exported3);
 
+  console.log("4 Data");
   console.log(date4);
-  console.log(total_barrels4);
   console.log(total_barrels4);
   console.log(taxable_removals4);
   console.log(total_shipped_exported4);
 
-  console.log(date5);
-  console.log(total_barrels5);
-  console.log(total_barrels5);
-  console.log(taxable_removals5);
-  console.log(total_shipped_exported5);
+//   console.log("5 Data");
+//   console.log(date5);
+//   console.log(total_barrels5);
+//   console.log(taxable_removals5);
+//   console.log(total_shipped_exported5);
 
-  console.log(date6);
-  console.log(total_barrels6);
-  console.log(total_barrels6);
-  console.log(taxable_removals6);
-  console.log(total_shipped_exported6);
+//   console.log("6 Data");
+//   console.log(date6);
+//   console.log(total_barrels6);
+//   console.log(taxable_removals6);
+//   console.log(total_shipped_exported6);
 
-  console.log(date7);
-  console.log(total_barrels7);
-  console.log(total_barrels7);
-  console.log(taxable_removals7);
-  console.log(total_shipped_exported7);
+//   console.log("7 Data");
+//   console.log(date7);
+//   console.log(total_barrels7);
+//   console.log(taxable_removals7);
+//   console.log(total_shipped_exported7);
 
-  console.log(date8);
-  console.log(total_barrels8);
-  console.log(total_barrels8);
-  console.log(taxable_removals8);
-  console.log(total_shipped_exported8);
+//   console.log("8 Data");
+//   console.log(date8);
+//   console.log(total_barrels8);
+//   console.log(taxable_removals8);
+//   console.log(total_shipped_exported8);
 
+  console.log("9 Data");
   console.log(date9);
-  console.log(total_barrels9);
   console.log(total_barrels9);
   console.log(taxable_removals9);
   console.log(total_shipped_exported9);
 
-  console.log(date10);
-  console.log(total_barrels10);
-  console.log(total_barrels10);
-  console.log(taxable_removals10);
-  console.log(total_shipped_exported10);
+//   console.log("10 Data");
+//   console.log(date10);
+//   console.log(total_barrels10);
+//   console.log(taxable_removals10);
+//   console.log(total_shipped_exported10);
 
+  console.log("11 Data");
   console.log(date11);
-  console.log(total_barrels11);
   console.log(total_barrels11);
   console.log(taxable_removals11);
   console.log(total_shipped_exported11);
 
-  console.log(date12);
-  console.log(total_barrels12);
-  console.log(total_barrels12);
-  console.log(taxable_removals12);
-  console.log(total_shipped_exported12);
+//   console.log("12 Data");
+//   console.log(date12);
+//   console.log(total_barrels12);
+//   console.log(taxable_removals12);
+//   console.log(total_shipped_exported12);
 
-  window.onload = function () {
-    var chart = new CanvasJS.Chart("chartContainer",
-    {
-      title:{
-      text: "Multi-Series Line Chart"  
-      },
-      data: [
-      {        
-        type: "line",
-        dataPoints: [
-        { x:1, y: total_barrels1[0]},
-        { x:2, y: total_barrels1[1]},
-        { x: 3, y: total_barrels1[2]},
-        { x: 4, y: total_barrels1[3]},
-        { x: 5, y: total_barrels1[4]},
-        { x: 6, y: total_barrels1[5]},
-        { x:7, y: total_barrels1[6]},
-        { x: 7, y: total_barrels1[7]},
-        { x: 9, y: total_barrels1[8]}
-      
+
+
+
+
+//Graphing
+
+
+window.onload = function () {
+
+    var chart = new CanvasJS.Chart("chartContainer", {
+        title: {
+            text: "Annual Beer Production"
+        },
+        axisX: {
+            valueFormatString: "MMM YYYY"
+        },
+        axisY2: {
+            title: "Beer Production",
+            suffix: "barrels"
+        },
+        toolTip: {
+            shared: true
+        },
+        legend: {
+            cursor: "pointer",
+            verticalAlign: "top",
+            horizontalAlign: "center",
+            dockInsidePlotArea: true,
+            itemclick: toogleDataSeries
+        },
+        data: [
+        //     {
+        //     type:"line",
+        //     axisYType: "secondary",
+        //     name: "6 million barrels and over",
+        //     showInLegend: true,
+        //     markerSize: 0,
+        //     yValueFormatString: "#,### barrels",
+        //     dataPoints: [
+        //         { x:new Date(date1[9], 00, 01), y: total_barrels1[9]},
+        //         { x:new Date(date1[8], 00, 01), y: total_barrels1[8]},
+        //         { x:new Date(date1[7], 00, 01), y: total_barrels1[7]},
+        //         { x:new Date(date1[6], 00, 01), y: total_barrels1[6]},
+        //         { x:new Date(date1[5], 00, 01), y: total_barrels1[5]},
+        //         { x:new Date(date1[4], 00, 01), y: total_barrels1[4]},
+        //         { x:new Date(date1[3], 00, 01), y: total_barrels1[3]},
+        //         { x:new Date(date1[2], 00, 01), y: total_barrels1[2]},
+        //         { x:new Date(date1[1], 00, 01), y: total_barrels1[1]},
+        //         { x:new Date(date1[0], 00, 01), y:total_barrels1[0]}
+        //     ]
+              
+        // },
+        {
+            type: "line",
+            axisYType: "secondary",
+            name: "1 million to 2 million",
+            showInLegend: true,
+            markerSize: 0,
+            yValueFormatString: "#,### barrels",
+            dataPoints: [
+                { x:new Date(date3[6], 00, 01), y: total_barrels3[6]},
+                { x:new Date(date3[5], 00, 01), y: total_barrels3[5]},
+                { x:new Date(date3[4], 00, 01), y: total_barrels3[4]},
+                { x:new Date(date3[3], 00, 01), y: total_barrels3[3]},
+                { x:new Date(date3[2], 00, 01), y: total_barrels3[2]},
+                { x:new Date(date3[1], 00, 01), y: total_barrels3[1]},
+                { x:new Date(date3[0], 00, 01), y:total_barrels3[0]}
+            ]
+           
+        },
+        {
+            type: "line",
+            axisYType: "secondary",
+            name: "100k to 500k Barrels",
+            showInLegend: true,
+            markerSize: 0,
+            yValueFormatString: "#,### barrels",
+            dataPoints: [
+            { x:new Date(date5[9], 00, 01), y: total_barrels5[9]},
+            { x:new Date(date5[8], 00, 01), y: total_barrels5[8]},
+            { x:new Date(date5[7], 00, 01), y: total_barrels5[7]},
+            { x:new Date(date5[6], 00, 01), y: total_barrels5[6]},
+            { x:new Date(date5[5], 00, 01), y: total_barrels5[5]},
+            { x:new Date(date5[4], 00, 01), y: total_barrels5[4]},
+            { x:new Date(date5[3], 00, 01), y: total_barrels5[3]},
+            { x:new Date(date5[2], 00, 01), y: total_barrels5[2]},
+            { x:new Date(date5[1], 00, 01), y: total_barrels5[1]},
+            { x:new Date(date5[0], 00, 01), y:total_barrels5[0]}
+            ]
+        //]}]
+        
+         },
+         {
+            type: "line",
+            axisYType: "secondary",
+            name: "15k to 30k barrels",
+            showInLegend: true,
+            markerSize: 0,
+            yValueFormatString: "#,### barrels",
+            dataPoints: [
+            { x:new Date(date8[9], 00, 01), y: total_barrels8[9]},
+            { x:new Date(date8[8], 00, 01), y: total_barrels8[8]},
+            { x:new Date(date8[7], 00, 01), y: total_barrels8[7]},
+            { x:new Date(date8[6], 00, 01), y: total_barrels8[6]},
+            { x:new Date(date8[5], 00, 01), y: total_barrels8[5]},
+            { x:new Date(date8[4], 00, 01), y: total_barrels8[4]},
+            { x:new Date(date8[3], 00, 01), y: total_barrels8[3]},
+            { x:new Date(date8[2], 00, 01), y: total_barrels8[2]},
+            { x:new Date(date8[1], 00, 01), y: total_barrels8[1]},
+            { x:new Date(date8[0], 00, 01), y:total_barrels8[0]}
+            ]},
+            {
+                type: "line",
+                axisYType: "secondary",
+                name: "1 to 1000 barrels",
+                showInLegend: true,
+                markerSize: 0,
+                yValueFormatString: "#,### barrels",
+                dataPoints: [
+                { x:new Date(date11[9], 00, 01), y: total_barrels11[9]},
+                { x:new Date(date11[8], 00, 01), y: total_barrels11[8]},
+                { x:new Date(date11[7], 00, 01), y: total_barrels11[7]},
+                { x:new Date(date11[6], 00, 01), y: total_barrels11[6]},
+                { x:new Date(date11[5], 00, 01), y: total_barrels11[5]},
+                { x:new Date(date11[4], 00, 01), y: total_barrels11[4]},
+                { x:new Date(date11[3], 00, 01), y: total_barrels11[3]},
+                { x:new Date(date11[2], 00, 01), y: total_barrels11[2]},
+                { x:new Date(date11[1], 00, 01), y: total_barrels11[1]},
+                { x:new Date(date11[0], 00, 01), y:total_barrels11[0]}
+                ]},
+                {
+                    type: "line",
+                    axisYType: "secondary",
+                    name: "500k to 1 million barrels",
+                    showInLegend: true,
+                    markerSize: 0,
+                    yValueFormatString: "#,### barrels",
+                    dataPoints: [
+                    { x:new Date(date4[9], 00, 01), y: total_barrels4[9]},
+                    { x:new Date(date4[8], 00, 01), y: total_barrels4[8]},
+                    { x:new Date(date4[7], 00, 01), y: total_barrels4[7]},
+                    { x:new Date(date4[6], 00, 01), y: total_barrels4[6]},
+                    { x:new Date(date4[5], 00, 01), y: total_barrels4[5]},
+                    { x:new Date(date4[4], 00, 01), y: total_barrels4[4]},
+                    { x:new Date(date4[3], 00, 01), y: total_barrels4[3]},
+                    { x:new Date(date4[2], 00, 01), y: total_barrels4[2]},
+                    { x:new Date(date4[1], 00, 01), y: total_barrels4[1]},
+                    { x:new Date(date4[0], 00, 01), y:total_barrels4[0]}
+                    ]}
+            
         ]
-      },
-        {        
-        type: "line",
-        dataPoints: [
-          { x: 1, y: total_barrels2[0] },
-          { x: 2, y: total_barrels2[1]},
-          { x: 3, y: total_barrels2[2]},
-          { x: 4, y: total_barrels2[3]},
-          { x: 5, y: total_barrels2[4]},
-          { x: 6, y: total_barrels2[5]},
-          { x: 7, y: total_barrels2[6]},
-          { x: 7, y: total_barrels2[7]},
-          { x: 9, y: total_barrels2[8]}
-      
-        ]
-      }
-      ]
+
+        //     ]
+        //}]
     });
-
     chart.render();
-  }
+    
+    function toogleDataSeries(e){
+        if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+            e.dataSeries.visible = false;
+        } else{
+            e.dataSeries.visible = true;
+        }
+        chart.render();
+    }
+    
+    }
 
-  //
 
-  //,
-  // {        
-  //   type: "line",
-  //   dataPoints: [
-  //   { x: 10, y: 45 },
-  //   { x: 20, y: 50},
-  //   { x: 30, y: 40 },
-  //   { x: 40, y: 45 },
-  //   { x: 50, y: 45 },
-  //   { x: 60, y: 48 },
-  //   { x: 70, y: 43 },
-  //   { x: 80, y: 41 },
-  //   { x: 90, y: 28}
-  
-  //   ]
-  // },
-  //   {        
-  //   type: "line",
-  //   dataPoints: [
-  //   { x: 10, y: 71 },
-  //   { x: 20, y: 55},
-  //   { x: 30, y: 50 },
-  //   { x: 40, y: 65 },
-  //   { x: 50, y: 95 },
-  //   { x: 60, y: 68 },
-  //   { x: 70, y: 28 },
-  //   { x: 80, y: 34 },
-  //   { x: 90, y: 14}
-  
-  //   ]
-  // }
+//end graphing
 
-  //end
-  
+
+
+
+//   window.onload = function () {
+//     var chart = new CanvasJS.Chart("chartContainer",
+//     {
+//       title:{
+//       text: "Beer Production Line Chart"  
+//       },
+//       data: [
+//       {
+//         // labels:[date1[0]],        
+//         type: "line",
+//         dataPoints: [
+//         { x: 2007, y: total_barrels1[9]},
+//         { x: 2008, y: total_barrels1[8]},
+//         { x: 2010, y: total_barrels1[7]},
+//         { x: 2011, y: total_barrels1[6]},
+//         { x: 2012, y: total_barrels1[5]},
+//         { x: 2013, y: total_barrels1[4]},
+//         { x: 2014, y: total_barrels1[3]},
+//         { x: 2015, y: total_barrels1[2]},
+//         { x: 2016, y: total_barrels1[1]},
+//         { x: 2017, y:total_barrels1[0]}
+      
+//         ]
+//       },
+//         {        
+//         type: "line",
+//         dataPoints: [
+//           { x: 2011, y: total_barrels2[6] },
+//           { x: 2012, y: total_barrels2[5]},
+//           { x: 2013, y: total_barrels2[4]},
+//           { x: 2014, y: total_barrels2[3]},
+//           { x: 2015, y: total_barrels2[2]},
+//           { x: 2016, y: total_barrels2[1]},
+//           { x: 2017, y: total_barrels2[0]}
+      
+//         ]
+//       },
+//       {        
+//         type: "line",
+//         dataPoints: [
+//             { x: 2011, y: total_barrels3[6] },
+//             { x: 2012, y: total_barrels3[5]},
+//             { x: 2013, y: total_barrels3[4]},
+//             { x: 2014, y: total_barrels3[3]},
+//             { x: 2015, y: total_barrels3[2]},
+//             { x: 2016, y: total_barrels3[1]},
+//             { x: 2017, y: total_barrels3[0]}
+      
+//         ]
+//       },
+//       {
+//       type: "line",
+//       dataPoints: [
+//       { x: date4[9], y: total_barrels4[9]},
+//       { x:date4[8], y: total_barrels4[8]},
+//       { x: date4[7], y: total_barrels4[7]},
+//       { x: date4[6], y: total_barrels4[6]},
+//       { x: date4[5], y: total_barrels4[5]},
+//       { x: date4[4], y: total_barrels4[4]},
+//       { x: date4[3], y: total_barrels4[3]},
+//       { x: date4[2], y: total_barrels4[2]},
+//       { x: date4[1], y: total_barrels4[1]},
+//       { x: date4[0], y:total_barrels4[0]}
+    
+//       ]
+//     },
+//     {
+//         type: "line",
+//         dataPoints: [
+//         { x:date5[9], y: total_barrels5[9]},
+//         { x:date5[8], y: total_barrels5[8]},
+//         { x: date5[7], y: total_barrels5[7]},
+//         { x: date5[6], y: total_barrels5[6]},
+//         { x: date5[5], y: total_barrels5[5]},
+//         { x: date5[4], y: total_barrels5[4]},
+//         { x: date5[3], y: total_barrels5[3]},
+//         { x: date5[2], y: total_barrels5[2]},
+//         { x: date5[1], y: total_barrels5[1]},
+//         { x: date5[0], y:total_barrels5[0]} 
+      
+//         ]
+//       }  
+//       ]
+//     });
+
+//     chart.render();
+//   }
+
+ 
 
 }
 load();
