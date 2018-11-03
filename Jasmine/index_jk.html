@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- CSS Stylesheets with Relative Paths -->
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.3/d3.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Beer Styles</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Beer Style Analysis</h1>
+  </header>
+
+  <main class="container">
+    <div class="col-md-12">
+       <p> The data for this graph was pulled from Beer Advocate and helps to visualize the popularity of different beers categorically. The largest 3 types of beer categories are lagers, ales (American pale ales and India pale ales making up the biggest chunk of popular ales) and stouts.        
+        <p> The outer ring shows the amount of beers in these categories and the inner ring shows these beers further separated into more specific categories to detail further popularity composition. </p>
+        <p>About half the graph is still composed of beers aside from the most popular categories, which leads us to believe that the most popular types of craft beers are not necessarily ales, stouts nor lagers, but rather uniquely crafted brews which pique the interest of craft beer enthusiasts. </p>
+      <section id="main-bio">
+        <section id="figure">
+          <img src="styles.png" alt="Trulli" width="1000" height="1150">
+        </section>
+    </div>
+    <aside id="contact-info">
+        <h2>5 Largest Categories of Beer</h2>
+        <ul>
+          <li><strong>Stouts</strong> </li>
+          <li><strong>Pale Ales</strong> </li>
+          <li><strong>Other Ales</strong> </li>
+          <li><strong>Lagers</strong> </li>
+          <li><strong>Other Beers</strong> </li>
+        </ul>
+    </aside>
+  </main>
+ 
+    <script src="data.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+
+  </html>
