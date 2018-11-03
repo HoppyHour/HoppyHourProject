@@ -126,7 +126,7 @@ def viz3():
 @app.route("/viz4") #muriel's beer analysis
 def viz4():
     
-    return render_template("index4.html")
+    return render_template("index_jk.html")
 
 
 
