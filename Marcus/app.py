@@ -115,18 +115,22 @@ def viz2_craftBeerHeat():
 
 
 
-
-
-
-@app.route("/viz3") #jasmine circle graph
+@app.route("/viz3") #muriel's beer analysis
 def viz3():
     
-    return render_template("index3.html")
+    return render_template("index_muriel.html")
 
-@app.route("/viz4") #muriel's beer analysis
+
+@app.route("/viz4") #jasmine circle graph
 def viz4():
     
     return render_template("index_jk.html")
+
+
+@app.route("/compare") #compare
+def compare():
+    
+    return render_template("index_compare.html")
 
 
 
